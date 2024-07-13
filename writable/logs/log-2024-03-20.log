@@ -1,0 +1,219 @@
+INFO - 2024-03-20 20:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 20:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 20:41:05 --> CSRF token verified.
+INFO - 2024-03-20 20:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 20:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 20:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 20:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 20:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 20:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 20:48:18 --> CSRF token verified.
+INFO - 2024-03-20 20:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 20:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 20:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 20:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 20:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 20:49:03 --> CSRF token verified.
+INFO - 2024-03-20 20:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 20:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 20:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 20:49:15 --> CSRF token verified.
+INFO - 2024-03-20 20:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 20:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 20:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:03:20 --> CSRF token verified.
+INFO - 2024-03-20 21:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:03:21 --> CSRF token verified.
+ERROR - 2024-03-20 21:03:21 --> mysqli_sql_exception: Duplicate entry '21005048' for key 'profil.PRIMARY' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Models\ProfilModel.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\ciempatmonitoringenam\app\Controllers\Profil.php(239): App\Models\ProfilModel->updateVerifikasiProfil(Array, '21005048')
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\Profil->update_verifikasi()
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-03-20 21:03:21 --> Duplicate entry '21005048' for key 'profil.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `profil` (`prf_uuid`, `prf_nim_portal`, `thn_msk_portal`, `prf_nama_portal`, `tmp_lahir_portal`, `tgl_lahir_portal`, `jk`, `agama`, `nohp_portal`, `nohp_baru`, `nowa`, `email`, `idpdpt`, `departemen_input`, `idprodi_portal`, `prodi_input`, `prodi_portal`, `nama_jurusan_portal`, `kd_jurusan_portal`, `id_fakultas_portal`, `nama_fakultas_portal`, `jjp_portal`, `jjp_input`, `alamat_lengkap`, `sudah_edit`, `prf_status`) VALUES (UUID(), :prf_nim_portal:, :thn_msk_portal:, :prf_nama_portal:, :tmp_lahir_portal:, :tgl_lahir_portal:, :jk:, :agama:, :nohp_portal:, :nohp_baru:, :nowa:, :email:, :idpdpt:, :departemen_input:, :idprodi_portal:, :prodi_input:, :prodi_portal:, :nama_jurusan_portal:, :kd_jurusan_portal:, :id_fakultas_portal:, :nama_fakultas_portal:, :jjp_portal:, :jjp_input:, :alamat_lengkap:, :sudah_edit:, :prf_status:)', [...], false)
+ 2 APPPATH\Models\ProfilModel.php(66): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Profil.php(239): App\Models\ProfilModel->updateVerifikasiProfil([...], '21005048')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->update_verifikasi()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-03-20 21:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:15:29 --> CSRF token verified.
+INFO - 2024-03-20 21:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:18:31 --> CSRF token verified.
+INFO - 2024-03-20 21:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 21:43:10 --> Undefined variable $semua_ujian_skripsi
+in APPPATH\Views\ujian_skripsi\v_rekap_ujian_skripsi.php on line 35.
+ 1 APPPATH\Views\ujian_skripsi\v_rekap_ujian_skripsi.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $semua_ujian_skripsi', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\ujian_skripsi\\v_rekap_ujian_skripsi.php', 35)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\ujian_skripsi\\v_rekap_ujian_skripsi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ujian_skripsi/v_rekap_ujian_skripsi', [], true)
+ 5 APPPATH\Controllers\UjianSkripsi.php(989): view('ujian_skripsi/v_rekap_ujian_skripsi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UjianSkripsi->rekap()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UjianSkripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-03-20 21:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 21:43:23 --> Undefined array key "prf_nama_portal"
+in APPPATH\Views\ujian_skripsi\v_rekap_ujian_skripsi.php on line 38.
+ 1 APPPATH\Views\ujian_skripsi\v_rekap_ujian_skripsi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prf_nama_portal"', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\ujian_skripsi\\v_rekap_ujian_skripsi.php', 38)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\ujian_skripsi\\v_rekap_ujian_skripsi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ujian_skripsi/v_rekap_ujian_skripsi', [], true)
+ 5 APPPATH\Controllers\UjianSkripsi.php(989): view('ujian_skripsi/v_rekap_ujian_skripsi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UjianSkripsi->rekap()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UjianSkripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-03-20 21:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 21:58:16 --> Undefined array key "sebagai"
+in APPPATH\Views\ujian_skripsi\v_rekap_ujian_skripsi.php on line 53.
+ 1 APPPATH\Views\ujian_skripsi\v_rekap_ujian_skripsi.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sebagai"', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\ujian_skripsi\\v_rekap_ujian_skripsi.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\ujian_skripsi\\v_rekap_ujian_skripsi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ujian_skripsi/v_rekap_ujian_skripsi', [], true)
+ 5 APPPATH\Controllers\UjianSkripsi.php(989): view('ujian_skripsi/v_rekap_ujian_skripsi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UjianSkripsi->rekap()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UjianSkripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-03-20 22:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 22:00:58 --> Undefined array key "prf_nama_portal   "
+in APPPATH\Views\ujian_skripsi\v_rekap_ujian_skripsi.php on line 39.
+ 1 APPPATH\Views\ujian_skripsi\v_rekap_ujian_skripsi.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prf_nama_portal   "', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\ujian_skripsi\\v_rekap_ujian_skripsi.php', 39)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\ujian_skripsi\\v_rekap_ujian_skripsi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ujian_skripsi/v_rekap_ujian_skripsi', [], true)
+ 5 APPPATH\Controllers\UjianSkripsi.php(989): view('ujian_skripsi/v_rekap_ujian_skripsi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UjianSkripsi->rekap()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UjianSkripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-03-20 22:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:00:19 --> CSRF token verified.
+INFO - 2024-03-20 23:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:01:21 --> CSRF token verified.
+INFO - 2024-03-20 23:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:01:35 --> CSRF token verified.
+INFO - 2024-03-20 23:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:02:38 --> CSRF token verified.
+INFO - 2024-03-20 23:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:08:47 --> CSRF token verified.
+INFO - 2024-03-20 23:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:09:08 --> CSRF token verified.
+INFO - 2024-03-20 23:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:09:18 --> CSRF token verified.
+INFO - 2024-03-20 23:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:10:00 --> CSRF token verified.
+INFO - 2024-03-20 23:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:17:43 --> CSRF token verified.
+INFO - 2024-03-20 23:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:18:47 --> CSRF token verified.
+INFO - 2024-03-20 23:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:18:59 --> CSRF token verified.
+INFO - 2024-03-20 23:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:20:24 --> CSRF token verified.
+INFO - 2024-03-20 23:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

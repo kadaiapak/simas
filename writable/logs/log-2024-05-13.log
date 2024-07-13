@@ -1,0 +1,113 @@
+INFO - 2024-05-13 09:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:33:57 --> CSRF token verified.
+INFO - 2024-05-13 09:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:52:35 --> CSRF token verified.
+INFO - 2024-05-13 09:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-13 09:53:17 --> Call to undefined method App\Models\DosenModel::getAllDosen
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\MasterDosen.php(19): CodeIgniter\Model->__call('getAllDosen', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-13 09:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-13 10:21:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(SELECT COUNT(skripsi.dosen_pembimbing) FROM skripsi 
+                WHERE skr' at line 2 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, depar...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, depar...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, depar...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\DosenModel.php(154): CodeIgniter\Database\BaseConnection->query('SELECT *, depar...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(19): App\Models\DosenModel->getAllDosen()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->index()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-13 10:21:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(SELECT COUNT(skripsi.dosen_pembimbing) FROM skripsi 
+                WHERE skr' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\DosenModel.php(154): CodeIgniter\Database\BaseConnection->query('SELECT *, departemen.departemen_nama as nama_departemen
+            (SELECT COUNT(skripsi.dosen_pembimbing) FROM skripsi 
+                WHERE skripsi.dosen_pembimbing = fip_dosen.nidn 
+                AND skripsi.status_pengajuan_skripsi = 3) AS total_membimbing,
+            (SELECT COUNT(skripsi.dosen_pa) FROM skripsi
+                WHERE skripsi.dosen_pa = fip_dosen.nidn 
+                AND skripsi.status_pengajuan_skripsi = 3) AS total_menjadi_pa, 
+            (SELECT COUNT(seminar.penguji_satu) FROM seminar 
+                WHERE seminar.penguji_satu = fip_dosen.nidn  
+                AND seminar.smr_status = 5) AS total_menguji_satu, 
+            (SELECT COUNT(seminar.penguji_dua) FROM seminar 
+                WHERE seminar.penguji_dua = fip_dosen.nidn 
+                AND seminar.smr_status = 5) AS total_menguji_dua 
+            FROM fip_dosen 
+            LEFT JOIN departemen ON fip_dosen.peg_prodi = departemen.departemen_id
+            ORDER BY total_membimbing DESC')
+ 2 APPPATH\Controllers\MasterDosen.php(19): App\Models\DosenModel->getAllDosen()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-13 10:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-13 10:21:51 --> Cannot use object of type stdClass as array
+in APPPATH\Views\master_dosen\v_master_dosen.php on line 38.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_dosen/v_master_dosen', [], true)
+ 4 APPPATH\Controllers\MasterDosen.php(24): view('master_dosen/v_master_dosen', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-13 10:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-13 10:22:07 --> Undefined array key "prodi_portal"
+in APPPATH\Views\master_dosen\v_master_dosen.php on line 40.
+ 1 APPPATH\Views\master_dosen\v_master_dosen.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prodi_portal"', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_master_dosen.php', 40)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_master_dosen.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_dosen/v_master_dosen', [], true)
+ 5 APPPATH\Controllers\MasterDosen.php(24): view('master_dosen/v_master_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-13 10:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-13 10:22:33 --> Undefined array key "prf_nim_portal"
+in APPPATH\Views\master_dosen\v_master_dosen.php on line 42.
+ 1 APPPATH\Views\master_dosen\v_master_dosen.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prf_nim_portal"', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_master_dosen.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_master_dosen.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_dosen/v_master_dosen', [], true)
+ 5 APPPATH\Controllers\MasterDosen.php(24): view('master_dosen/v_master_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-13 10:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-13 10:27:32 --> Undefined property: App\Controllers\MasterDosen::$profilModel
+in APPPATH\Controllers\MasterDosen.php on line 40.
+ 1 APPPATH\Controllers\MasterDosen.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\MasterDosen::$profilModel', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Controllers\\MasterDosen.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->detail('0009046009')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-13 10:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

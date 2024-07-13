@@ -1,0 +1,1286 @@
+INFO - 2024-05-14 13:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:04:57 --> CSRF token verified.
+INFO - 2024-05-14 13:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 13:11:45 --> Call to undefined method App\Models\DosenModel::getDetailUntukEditDosen
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\MasterDosen.php(49): CodeIgniter\Model->__call('getDetailUntukEditDosen', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->edit('0031016108')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 13:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 13:12:13 --> Undefined array key "profil_id"
+in APPPATH\Views\master_dosen\v_edit_master_dosen.php on line 14.
+ 1 APPPATH\Views\master_dosen\v_edit_master_dosen.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "profil_id"', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_edit_master_dosen.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_edit_master_dosen.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_dosen/v_edit_master_dosen', [], true)
+ 5 APPPATH\Controllers\MasterDosen.php(57): view('master_dosen/v_edit_master_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->edit('0031016108')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 13:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 13:25:16 --> Undefined variable $semuaDosen
+in APPPATH\Views\master_dosen\v_edit_master_dosen.php on line 35.
+ 1 APPPATH\Views\master_dosen\v_edit_master_dosen.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $semuaDosen', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_edit_master_dosen.php', 35)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_edit_master_dosen.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_dosen/v_edit_master_dosen', [], true)
+ 5 APPPATH\Controllers\MasterDosen.php(57): view('master_dosen/v_edit_master_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->edit('0025095406')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 13:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 13:27:26 --> Undefined variable $semua_departemen
+in APPPATH\Views\master_dosen\v_edit_master_dosen.php on line 46.
+ 1 APPPATH\Views\master_dosen\v_edit_master_dosen.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $semua_departemen', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_edit_master_dosen.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_edit_master_dosen.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_dosen/v_edit_master_dosen', [], true)
+ 5 APPPATH\Controllers\MasterDosen.php(57): view('master_dosen/v_edit_master_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->edit('0025095406')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 13:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 13:29:04 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Controllers\MasterDosen.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Controllers\\MasterDosen.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MasterDosen')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MasterDosen')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\MasterDosen', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 13:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 13:29:13 --> Undefined variable $semuaDepartemen
+in APPPATH\Views\master_dosen\v_edit_master_dosen.php on line 46.
+ 1 APPPATH\Views\master_dosen\v_edit_master_dosen.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $semuaDepartemen', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_edit_master_dosen.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_edit_master_dosen.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_dosen/v_edit_master_dosen', [], true)
+ 5 APPPATH\Controllers\MasterDosen.php(62): view('master_dosen/v_edit_master_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->edit('0025095406')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 13:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 13:29:32 --> Undefined array key "departemen_pengajuan"
+in APPPATH\Views\master_dosen\v_edit_master_dosen.php on line 47.
+ 1 APPPATH\Views\master_dosen\v_edit_master_dosen.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen_pengajuan"', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_edit_master_dosen.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_edit_master_dosen.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_dosen/v_edit_master_dosen', [], true)
+ 5 APPPATH\Controllers\MasterDosen.php(62): view('master_dosen/v_edit_master_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->edit('0025095406')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 13:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 13:30:26 --> Undefined array key "judul"
+in APPPATH\Views\master_dosen\v_edit_master_dosen.php on line 58.
+ 1 APPPATH\Views\master_dosen\v_edit_master_dosen.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "judul"', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_edit_master_dosen.php', 58)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_edit_master_dosen.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_dosen/v_edit_master_dosen', [], true)
+ 5 APPPATH\Controllers\MasterDosen.php(62): view('master_dosen/v_edit_master_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->edit('0025095406')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 13:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:41:06 --> CSRF token verified.
+INFO - 2024-05-14 13:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:41:57 --> CSRF token verified.
+INFO - 2024-05-14 14:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:31:28 --> CSRF token verified.
+INFO - 2024-05-14 16:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:32:07 --> CSRF token verified.
+INFO - 2024-05-14 16:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:32:17 --> CSRF token verified.
+INFO - 2024-05-14 16:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:32:55 --> CSRF token verified.
+INFO - 2024-05-14 16:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:33:24 --> CSRF token verified.
+INFO - 2024-05-14 16:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:54:50 --> CSRF token verified.
+INFO - 2024-05-14 16:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:56:50 --> CSRF token verified.
+INFO - 2024-05-14 16:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 17:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 17:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 17:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-14 17:05:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'peg_gel_dep,
+            FROM fip_dosen' at line 1 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT DISTINCT...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\DosenModel.php(207): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(207): App\Models\DosenModel->getAllGelarDepan()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-14 17:05:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'peg_gel_dep,
+            FROM fip_dosen' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\DosenModel.php(207): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT fip_dosen.*peg_gel_dep,
+            FROM fip_dosen ')
+ 2 APPPATH\Controllers\MasterDosen.php(207): App\Models\DosenModel->getAllGelarDepan()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 17:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-14 17:06:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'peg_gel_dep,
+            FROM fip_dosen' at line 1 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT DISTINCT...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\DosenModel.php(207): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(207): App\Models\DosenModel->getAllGelarDepan()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-14 17:06:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'peg_gel_dep,
+            FROM fip_dosen' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\DosenModel.php(207): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT fip_dosen.*peg_gel_dep,
+            FROM fip_dosen')
+ 2 APPPATH\Controllers\MasterDosen.php(207): App\Models\DosenModel->getAllGelarDepan()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 17:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-14 17:06:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'peg_gel_dep,
+            FROM fip_dosen' at line 1 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT DISTINCT...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\DosenModel.php(207): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(207): App\Models\DosenModel->getAllGelarDepan()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-14 17:06:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'peg_gel_dep,
+            FROM fip_dosen' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\DosenModel.php(207): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT fip_dosen.*peg_gel_dep,
+            FROM fip_dosen')
+ 2 APPPATH\Controllers\MasterDosen.php(207): App\Models\DosenModel->getAllGelarDepan()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 17:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-14 17:06:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM fip_dosen' at line 2 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT DISTINCT...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\DosenModel.php(207): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(207): App\Models\DosenModel->getAllGelarDepan()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-14 17:06:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM fip_dosen' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\DosenModel.php(207): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT peg_gel_dep,
+            FROM fip_dosen')
+ 2 APPPATH\Controllers\MasterDosen.php(207): App\Models\DosenModel->getAllGelarDepan()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 17:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-14 17:06:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM fip_dosen' at line 2 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT DISTINCT...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\DosenModel.php(207): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(207): App\Models\DosenModel->getAllGelarDepan()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-14 17:06:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM fip_dosen' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\DosenModel.php(207): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT peg_gel_dep,
+            FROM fip_dosen')
+ 2 APPPATH\Controllers\MasterDosen.php(207): App\Models\DosenModel->getAllGelarDepan()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 17:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 17:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 17:11:05 --> Undefined array key "peg_nama"
+in APPPATH\Views\master_dosen\v_pengaturan_tambahan.php on line 60.
+ 1 APPPATH\Views\master_dosen\v_pengaturan_tambahan.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "peg_nama"', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_pengaturan_tambahan.php', 60)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_pengaturan_tambahan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_dosen/v_pengaturan_tambahan', [], true)
+ 5 APPPATH\Controllers\MasterDosen.php(215): view('master_dosen/v_pengaturan_tambahan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 17:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 17:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 17:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 17:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 17:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 17:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 17:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 17:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 17:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 17:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 17:19:04 --> Undefined variable $semuaPangkat
+in APPPATH\Views\master_dosen\v_pengaturan_tambahan.php on line 123.
+ 1 APPPATH\Views\master_dosen\v_pengaturan_tambahan.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $semuaPangkat', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_pengaturan_tambahan.php', 123)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_pengaturan_tambahan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_dosen/v_pengaturan_tambahan', [], true)
+ 5 APPPATH\Controllers\MasterDosen.php(220): view('master_dosen/v_pengaturan_tambahan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 17:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 17:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 17:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 17:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 17:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 17:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 17:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 17:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 17:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 17:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 18:09:50 --> Undefined array key "departemen_id"
+in APPPATH\Views\master_dosen\v_tambah_master_dosen.php on line 114.
+ 1 APPPATH\Views\master_dosen\v_tambah_master_dosen.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen_id"', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_tambah_master_dosen.php', 114)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_tambah_master_dosen.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_dosen/v_tambah_master_dosen', [], true)
+ 5 APPPATH\Controllers\MasterDosen.php(143): view('master_dosen/v_tambah_master_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 18:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 18:13:38 --> Undefined array key "peg_pangkat"
+in APPPATH\Views\master_dosen\v_tambah_master_dosen.php on line 128.
+ 1 APPPATH\Views\master_dosen\v_tambah_master_dosen.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "peg_pangkat"', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_tambah_master_dosen.php', 128)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_dosen\\v_tambah_master_dosen.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_dosen/v_tambah_master_dosen', [], true)
+ 5 APPPATH\Controllers\MasterDosen.php(145): view('master_dosen/v_tambah_master_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 18:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:28:09 --> CSRF token verified.
+ERROR - 2024-05-14 18:28:09 --> mysqli_sql_exception: Duplicate entry '' for key 'fip_dosen.PRIMARY' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\ciempatmonitoringenam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\ciempatmonitoringenam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(209): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+#9 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#10 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-05-14 18:28:09 --> Duplicate entry '' for key 'fip_dosen.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fip_dosen` (`peg_gel_dep`, `peg_nama`, `peg_gel_bel`, `peg_status`, `peg_pangkat`, `peg_golongan`, `peg_jabatan`, `peg_tmp_lahir`, `peg_tgl_lahir`, `peg_sex`, `peg_agama`, `peg_prodi`, `peg_pendidikan`, `peg_tmt`, `peg_no_sk`, `peg_kota`, `peg_kawin`, `peg_telp`, `peg_hp`, `peg_email`, `peg_alamat`, `created_at`, `updated_at`) VALUES (:peg_gel_dep:, :peg_nama:, :peg_gel_bel:, :peg_status:, :peg_pangkat:, :peg_golongan:, :peg_jabatan:, :peg_tmp_lahir:, :peg_tgl_lahir:, :peg_sex:, :peg_agama:, :peg_prodi:, :peg_pendidikan:, :peg_tmt:, :peg_no_sk:, :peg_kota:, :peg_kawin:, :peg_telp:, :peg_hp:, :peg_email:, :peg_alamat:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\MasterDosen.php(209): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 18:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:29:33 --> CSRF token verified.
+ERROR - 2024-05-14 18:29:33 --> mysqli_sql_exception: Duplicate entry '' for key 'fip_dosen.PRIMARY' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\ciempatmonitoringenam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\ciempatmonitoringenam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(211): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+#9 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#10 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-05-14 18:29:33 --> Duplicate entry '' for key 'fip_dosen.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fip_dosen` (`peg_nip`, `peg_gel_dep`, `peg_nama`, `peg_gel_bel`, `peg_status`, `peg_pangkat`, `peg_golongan`, `peg_jabatan`, `peg_tmp_lahir`, `peg_tgl_lahir`, `peg_sex`, `peg_agama`, `peg_prodi`, `peg_pendidikan`, `peg_tmt`, `peg_no_sk`, `peg_kota`, `peg_kawin`, `peg_telp`, `peg_hp`, `peg_email`, `peg_alamat`, `created_at`, `updated_at`) VALUES (:peg_nip:, :peg_gel_dep:, :peg_nama:, :peg_gel_bel:, :peg_status:, :peg_pangkat:, :peg_golongan:, :peg_jabatan:, :peg_tmp_lahir:, :peg_tgl_lahir:, :peg_sex:, :peg_agama:, :peg_prodi:, :peg_pendidikan:, :peg_tmt:, :peg_no_sk:, :peg_kota:, :peg_kawin:, :peg_telp:, :peg_hp:, :peg_email:, :peg_alamat:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\MasterDosen.php(211): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 18:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:29:37 --> CSRF token verified.
+ERROR - 2024-05-14 18:29:37 --> mysqli_sql_exception: Duplicate entry '' for key 'fip_dosen.PRIMARY' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\ciempatmonitoringenam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\ciempatmonitoringenam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(211): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+#9 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#10 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-05-14 18:29:37 --> Duplicate entry '' for key 'fip_dosen.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fip_dosen` (`peg_nip`, `peg_gel_dep`, `peg_nama`, `peg_gel_bel`, `peg_status`, `peg_pangkat`, `peg_golongan`, `peg_jabatan`, `peg_tmp_lahir`, `peg_tgl_lahir`, `peg_sex`, `peg_agama`, `peg_prodi`, `peg_pendidikan`, `peg_tmt`, `peg_no_sk`, `peg_kota`, `peg_kawin`, `peg_telp`, `peg_hp`, `peg_email`, `peg_alamat`, `created_at`, `updated_at`) VALUES (:peg_nip:, :peg_gel_dep:, :peg_nama:, :peg_gel_bel:, :peg_status:, :peg_pangkat:, :peg_golongan:, :peg_jabatan:, :peg_tmp_lahir:, :peg_tgl_lahir:, :peg_sex:, :peg_agama:, :peg_prodi:, :peg_pendidikan:, :peg_tmt:, :peg_no_sk:, :peg_kota:, :peg_kawin:, :peg_telp:, :peg_hp:, :peg_email:, :peg_alamat:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\MasterDosen.php(211): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 18:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:29:44 --> CSRF token verified.
+ERROR - 2024-05-14 18:29:44 --> mysqli_sql_exception: Duplicate entry '' for key 'fip_dosen.PRIMARY' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\ciempatmonitoringenam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\ciempatmonitoringenam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(211): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+#9 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#10 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-05-14 18:29:44 --> Duplicate entry '' for key 'fip_dosen.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fip_dosen` (`peg_nip`, `peg_gel_dep`, `peg_nama`, `peg_gel_bel`, `peg_status`, `peg_pangkat`, `peg_golongan`, `peg_jabatan`, `peg_tmp_lahir`, `peg_tgl_lahir`, `peg_sex`, `peg_agama`, `peg_prodi`, `peg_pendidikan`, `peg_tmt`, `peg_no_sk`, `peg_kota`, `peg_kawin`, `peg_telp`, `peg_hp`, `peg_email`, `peg_alamat`, `created_at`, `updated_at`) VALUES (:peg_nip:, :peg_gel_dep:, :peg_nama:, :peg_gel_bel:, :peg_status:, :peg_pangkat:, :peg_golongan:, :peg_jabatan:, :peg_tmp_lahir:, :peg_tgl_lahir:, :peg_sex:, :peg_agama:, :peg_prodi:, :peg_pendidikan:, :peg_tmt:, :peg_no_sk:, :peg_kota:, :peg_kawin:, :peg_telp:, :peg_hp:, :peg_email:, :peg_alamat:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\MasterDosen.php(211): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 18:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:32:27 --> CSRF token verified.
+INFO - 2024-05-14 18:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:32:53 --> CSRF token verified.
+ERROR - 2024-05-14 18:32:53 --> mysqli_sql_exception: Duplicate entry '' for key 'fip_dosen.PRIMARY' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\ciempatmonitoringenam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\ciempatmonitoringenam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(211): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+#9 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#10 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-05-14 18:32:53 --> Duplicate entry '' for key 'fip_dosen.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fip_dosen` (`peg_nip`, `peg_gel_dep`, `peg_nama`, `peg_gel_bel`, `peg_status`, `peg_pangkat`, `peg_golongan`, `peg_jabatan`, `peg_tmp_lahir`, `peg_tgl_lahir`, `peg_sex`, `peg_agama`, `peg_prodi`, `peg_pendidikan`, `peg_tmt`, `peg_no_sk`, `peg_kota`, `peg_kawin`, `peg_telp`, `peg_hp`, `peg_email`, `peg_alamat`, `created_at`, `updated_at`) VALUES (:peg_nip:, :peg_gel_dep:, :peg_nama:, :peg_gel_bel:, :peg_status:, :peg_pangkat:, :peg_golongan:, :peg_jabatan:, :peg_tmp_lahir:, :peg_tgl_lahir:, :peg_sex:, :peg_agama:, :peg_prodi:, :peg_pendidikan:, :peg_tmt:, :peg_no_sk:, :peg_kota:, :peg_kawin:, :peg_telp:, :peg_hp:, :peg_email:, :peg_alamat:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\MasterDosen.php(211): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 18:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:35:23 --> CSRF token verified.
+ERROR - 2024-05-14 18:35:24 --> mysqli_sql_exception: Duplicate entry '' for key 'fip_dosen.PRIMARY' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\ciempatmonitoringenam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\ciempatmonitoringenam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(211): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+#9 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#10 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-05-14 18:35:24 --> Duplicate entry '' for key 'fip_dosen.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fip_dosen` (`peg_nip`, `peg_gel_dep`, `peg_nama`, `peg_gel_bel`, `peg_status`, `peg_pangkat`, `peg_golongan`, `peg_jabatan`, `peg_tmp_lahir`, `peg_tgl_lahir`, `peg_sex`, `peg_agama`, `peg_prodi`, `peg_pendidikan`, `peg_tmt`, `peg_no_sk`, `peg_kota`, `peg_kawin`, `peg_telp`, `peg_hp`, `peg_email`, `peg_alamat`, `created_at`, `updated_at`) VALUES (:peg_nip:, :peg_gel_dep:, :peg_nama:, :peg_gel_bel:, :peg_status:, :peg_pangkat:, :peg_golongan:, :peg_jabatan:, :peg_tmp_lahir:, :peg_tgl_lahir:, :peg_sex:, :peg_agama:, :peg_prodi:, :peg_pendidikan:, :peg_tmt:, :peg_no_sk:, :peg_kota:, :peg_kawin:, :peg_telp:, :peg_hp:, :peg_email:, :peg_alamat:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\MasterDosen.php(211): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 18:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:35:27 --> CSRF token verified.
+ERROR - 2024-05-14 18:35:27 --> mysqli_sql_exception: Duplicate entry '' for key 'fip_dosen.PRIMARY' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\ciempatmonitoringenam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\ciempatmonitoringenam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(211): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+#9 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#10 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-05-14 18:35:27 --> Duplicate entry '' for key 'fip_dosen.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fip_dosen` (`peg_nip`, `peg_gel_dep`, `peg_nama`, `peg_gel_bel`, `peg_status`, `peg_pangkat`, `peg_golongan`, `peg_jabatan`, `peg_tmp_lahir`, `peg_tgl_lahir`, `peg_sex`, `peg_agama`, `peg_prodi`, `peg_pendidikan`, `peg_tmt`, `peg_no_sk`, `peg_kota`, `peg_kawin`, `peg_telp`, `peg_hp`, `peg_email`, `peg_alamat`, `created_at`, `updated_at`) VALUES (:peg_nip:, :peg_gel_dep:, :peg_nama:, :peg_gel_bel:, :peg_status:, :peg_pangkat:, :peg_golongan:, :peg_jabatan:, :peg_tmp_lahir:, :peg_tgl_lahir:, :peg_sex:, :peg_agama:, :peg_prodi:, :peg_pendidikan:, :peg_tmt:, :peg_no_sk:, :peg_kota:, :peg_kawin:, :peg_telp:, :peg_hp:, :peg_email:, :peg_alamat:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\MasterDosen.php(211): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 18:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:37:06 --> CSRF token verified.
+ERROR - 2024-05-14 18:37:06 --> mysqli_sql_exception: Duplicate entry '' for key 'fip_dosen.PRIMARY' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\ciempatmonitoringenam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\ciempatmonitoringenam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(211): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+#9 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#10 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-05-14 18:37:06 --> Duplicate entry '' for key 'fip_dosen.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fip_dosen` (`peg_nip`, `peg_gel_dep`, `peg_nama`, `peg_gel_bel`, `peg_status`, `peg_pangkat`, `peg_golongan`, `peg_jabatan`, `peg_tmp_lahir`, `peg_tgl_lahir`, `peg_sex`, `peg_agama`, `peg_prodi`, `peg_pendidikan`, `peg_tmt`, `peg_no_sk`, `peg_kota`, `peg_kawin`, `peg_telp`, `peg_hp`, `peg_email`, `peg_alamat`, `created_at`, `updated_at`) VALUES (:peg_nip:, :peg_gel_dep:, :peg_nama:, :peg_gel_bel:, :peg_status:, :peg_pangkat:, :peg_golongan:, :peg_jabatan:, :peg_tmp_lahir:, :peg_tgl_lahir:, :peg_sex:, :peg_agama:, :peg_prodi:, :peg_pendidikan:, :peg_tmt:, :peg_no_sk:, :peg_kota:, :peg_kawin:, :peg_telp:, :peg_hp:, :peg_email:, :peg_alamat:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\MasterDosen.php(211): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 18:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:37:29 --> CSRF token verified.
+INFO - 2024-05-14 18:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:37:41 --> CSRF token verified.
+ERROR - 2024-05-14 18:37:41 --> mysqli_sql_exception: Duplicate entry '' for key 'fip_dosen.PRIMARY' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\ciempatmonitoringenam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\ciempatmonitoringenam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(211): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+#9 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#10 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-05-14 18:37:41 --> Duplicate entry '' for key 'fip_dosen.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fip_dosen` (`peg_nip`, `peg_gel_dep`, `peg_nama`, `peg_gel_bel`, `peg_status`, `peg_pangkat`, `peg_golongan`, `peg_jabatan`, `peg_tmp_lahir`, `peg_tgl_lahir`, `peg_sex`, `peg_agama`, `peg_prodi`, `peg_pendidikan`, `peg_tmt`, `peg_no_sk`, `peg_kota`, `peg_kawin`, `peg_telp`, `peg_hp`, `peg_email`, `peg_alamat`, `created_at`, `updated_at`) VALUES (:peg_nip:, :peg_gel_dep:, :peg_nama:, :peg_gel_bel:, :peg_status:, :peg_pangkat:, :peg_golongan:, :peg_jabatan:, :peg_tmp_lahir:, :peg_tgl_lahir:, :peg_sex:, :peg_agama:, :peg_prodi:, :peg_pendidikan:, :peg_tmt:, :peg_no_sk:, :peg_kota:, :peg_kawin:, :peg_telp:, :peg_hp:, :peg_email:, :peg_alamat:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\MasterDosen.php(211): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 18:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:38:52 --> CSRF token verified.
+ERROR - 2024-05-14 18:38:52 --> mysqli_sql_exception: Duplicate entry '' for key 'fip_dosen.PRIMARY' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\ciempatmonitoringenam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\ciempatmonitoringenam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(208): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+#9 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#10 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-05-14 18:38:52 --> Duplicate entry '' for key 'fip_dosen.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fip_dosen` (`peg_nip`, `peg_gel_dep`, `peg_nama`, `peg_gel_bel`, `peg_status`, `peg_pangkat`, `peg_golongan`, `peg_jabatan`, `peg_tmp_lahir`, `peg_tgl_lahir`, `peg_sex`, `peg_agama`, `peg_prodi`, `peg_pendidikan`, `peg_tmt`, `peg_no_sk`, `peg_kota`, `peg_kawin`, `peg_telp`, `peg_hp`, `peg_email`, `peg_alamat`, `created_at`, `updated_at`) VALUES (:peg_nip:, :peg_gel_dep:, :peg_nama:, :peg_gel_bel:, :peg_status:, :peg_pangkat:, :peg_golongan:, :peg_jabatan:, :peg_tmp_lahir:, :peg_tgl_lahir:, :peg_sex:, :peg_agama:, :peg_prodi:, :peg_pendidikan:, :peg_tmt:, :peg_no_sk:, :peg_kota:, :peg_kawin:, :peg_telp:, :peg_hp:, :peg_email:, :peg_alamat:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\MasterDosen.php(208): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 18:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:46:46 --> CSRF token verified.
+INFO - 2024-05-14 18:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:47:04 --> CSRF token verified.
+ERROR - 2024-05-14 18:47:04 --> mysqli_sql_exception: Duplicate entry '' for key 'fip_dosen.PRIMARY' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\ciempatmonitoringenam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\ciempatmonitoringenam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(208): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+#9 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#10 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-05-14 18:47:04 --> Duplicate entry '' for key 'fip_dosen.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fip_dosen` (`peg_nip`, `peg_gel_dep`, `peg_nama`, `peg_gel_bel`, `peg_status`, `peg_pangkat`, `peg_golongan`, `peg_jabatan`, `peg_tmp_lahir`, `peg_tgl_lahir`, `peg_sex`, `peg_agama`, `peg_prodi`, `peg_pendidikan`, `peg_tmt`, `peg_no_sk`, `peg_kota`, `peg_kawin`, `peg_telp`, `peg_hp`, `peg_email`, `peg_alamat`, `created_at`, `updated_at`) VALUES (:peg_nip:, :peg_gel_dep:, :peg_nama:, :peg_gel_bel:, :peg_status:, :peg_pangkat:, :peg_golongan:, :peg_jabatan:, :peg_tmp_lahir:, :peg_tgl_lahir:, :peg_sex:, :peg_agama:, :peg_prodi:, :peg_pendidikan:, :peg_tmt:, :peg_no_sk:, :peg_kota:, :peg_kawin:, :peg_telp:, :peg_hp:, :peg_email:, :peg_alamat:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\MasterDosen.php(208): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 18:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:47:08 --> CSRF token verified.
+ERROR - 2024-05-14 18:47:08 --> mysqli_sql_exception: Duplicate entry '' for key 'fip_dosen.PRIMARY' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\ciempatmonitoringenam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\ciempatmonitoringenam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(208): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+#9 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#10 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-05-14 18:47:08 --> Duplicate entry '' for key 'fip_dosen.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fip_dosen` (`peg_nip`, `peg_gel_dep`, `peg_nama`, `peg_gel_bel`, `peg_status`, `peg_pangkat`, `peg_golongan`, `peg_jabatan`, `peg_tmp_lahir`, `peg_tgl_lahir`, `peg_sex`, `peg_agama`, `peg_prodi`, `peg_pendidikan`, `peg_tmt`, `peg_no_sk`, `peg_kota`, `peg_kawin`, `peg_telp`, `peg_hp`, `peg_email`, `peg_alamat`, `created_at`, `updated_at`) VALUES (:peg_nip:, :peg_gel_dep:, :peg_nama:, :peg_gel_bel:, :peg_status:, :peg_pangkat:, :peg_golongan:, :peg_jabatan:, :peg_tmp_lahir:, :peg_tgl_lahir:, :peg_sex:, :peg_agama:, :peg_prodi:, :peg_pendidikan:, :peg_tmt:, :peg_no_sk:, :peg_kota:, :peg_kawin:, :peg_telp:, :peg_hp:, :peg_email:, :peg_alamat:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\MasterDosen.php(208): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 18:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:50:27 --> CSRF token verified.
+INFO - 2024-05-14 18:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:53:38 --> CSRF token verified.
+INFO - 2024-05-14 18:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 19:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 19:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-14 19:31:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT peg_kawin
+            FROM fip_dosen
+            ORDER BY peg_kawin A' at line 1 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT nidn, pe...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nidn, pe...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nidn, pe...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\DosenModel.php(310): CodeIgniter\Database\BaseConnection->query('SELECT nidn, pe...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(225): App\Models\DosenModel->getAllStatusPernikahan()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-14 19:31:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT peg_kawin
+            FROM fip_dosen
+            ORDER BY peg_kawin A' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\DosenModel.php(310): CodeIgniter\Database\BaseConnection->query('SELECT nidn, peg_gel_dep, peg_nama, peg_gel_bel, DISTINCT peg_kawin
+            FROM fip_dosen
+            ORDER BY peg_kawin ASC')
+ 2 APPPATH\Controllers\MasterDosen.php(225): App\Models\DosenModel->getAllStatusPernikahan()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 19:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-14 19:31:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT (peg_kawin)
+            FROM fip_dosen
+            ORDER BY peg_kawin' at line 1 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT nidn, pe...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nidn, pe...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nidn, pe...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\DosenModel.php(310): CodeIgniter\Database\BaseConnection->query('SELECT nidn, pe...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(225): App\Models\DosenModel->getAllStatusPernikahan()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-14 19:31:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT (peg_kawin)
+            FROM fip_dosen
+            ORDER BY peg_kawin' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\DosenModel.php(310): CodeIgniter\Database\BaseConnection->query('SELECT nidn, peg_gel_dep, peg_nama, peg_gel_bel, DISTINCT (peg_kawin)
+            FROM fip_dosen
+            ORDER BY peg_kawin ASC')
+ 2 APPPATH\Controllers\MasterDosen.php(225): App\Models\DosenModel->getAllStatusPernikahan()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 19:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-14 19:31:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT peg_kawin
+            FROM fip_dosen
+            ORDER BY peg_kawin A' at line 1 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT nidn, pe...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nidn, pe...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nidn, pe...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\DosenModel.php(310): CodeIgniter\Database\BaseConnection->query('SELECT nidn, pe...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(225): App\Models\DosenModel->getAllStatusPernikahan()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-14 19:31:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT peg_kawin
+            FROM fip_dosen
+            ORDER BY peg_kawin A' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\DosenModel.php(310): CodeIgniter\Database\BaseConnection->query('SELECT nidn, peg_gel_dep, peg_nama, peg_gel_bel, DISTINCT peg_kawin
+            FROM fip_dosen
+            ORDER BY peg_kawin ASC')
+ 2 APPPATH\Controllers\MasterDosen.php(225): App\Models\DosenModel->getAllStatusPernikahan()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 19:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-14 19:32:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM fip_dosen
+            ORDER BY peg_kawin ASC' at line 2 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT DISTINCT...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\DosenModel.php(310): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(225): App\Models\DosenModel->getAllStatusPernikahan()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-14 19:32:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM fip_dosen
+            ORDER BY peg_kawin ASC' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\DosenModel.php(310): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT peg_kawin, nidn, peg_gel_dep, peg_nama, peg_gel_bel, 
+            FROM fip_dosen
+            ORDER BY peg_kawin ASC')
+ 2 APPPATH\Controllers\MasterDosen.php(225): App\Models\DosenModel->getAllStatusPernikahan()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 19:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 19:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 19:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 19:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-14 19:37:52 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.fip_dosen.nidn' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT peg_kawi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT peg_kawi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT peg_kawi...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\DosenModel.php(310): CodeIgniter\Database\BaseConnection->query('SELECT peg_kawi...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(225): App\Models\DosenModel->getAllStatusPernikahan()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-14 19:37:52 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.fip_dosen.nidn' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\DosenModel.php(310): CodeIgniter\Database\BaseConnection->query('SELECT peg_kawin, nidn, peg_gel_dep, peg_nama, peg_gel_bel
+            FROM fip_dosen
+            GROUP BY peg_kawin
+            ORDER BY peg_kawin ASC')
+ 2 APPPATH\Controllers\MasterDosen.php(225): App\Models\DosenModel->getAllStatusPernikahan()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 19:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-14 19:39:10 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.fip_dosen.nidn' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT peg_kawi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT peg_kawi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT peg_kawi...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\DosenModel.php(310): CodeIgniter\Database\BaseConnection->query('SELECT peg_kawi...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(225): App\Models\DosenModel->getAllStatusPernikahan()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-14 19:39:10 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.fip_dosen.nidn' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\DosenModel.php(310): CodeIgniter\Database\BaseConnection->query('SELECT peg_kawin, nidn, peg_gel_dep, peg_nama, peg_gel_bel
+            FROM fip_dosen
+            GROUP BY peg_kawin')
+ 2 APPPATH\Controllers\MasterDosen.php(225): App\Models\DosenModel->getAllStatusPernikahan()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 19:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-14 19:39:12 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.fip_dosen.nidn' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT peg_kawi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT peg_kawi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT peg_kawi...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\DosenModel.php(310): CodeIgniter\Database\BaseConnection->query('SELECT peg_kawi...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(225): App\Models\DosenModel->getAllStatusPernikahan()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-14 19:39:12 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.fip_dosen.nidn' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\DosenModel.php(310): CodeIgniter\Database\BaseConnection->query('SELECT peg_kawin, nidn, peg_gel_dep, peg_nama, peg_gel_bel
+            FROM fip_dosen
+            GROUP BY peg_kawin')
+ 2 APPPATH\Controllers\MasterDosen.php(225): App\Models\DosenModel->getAllStatusPernikahan()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 19:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-14 19:39:12 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.fip_dosen.nidn' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT peg_kawi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT peg_kawi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT peg_kawi...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\DosenModel.php(310): CodeIgniter\Database\BaseConnection->query('SELECT peg_kawi...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(225): App\Models\DosenModel->getAllStatusPernikahan()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-14 19:39:12 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.fip_dosen.nidn' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\DosenModel.php(310): CodeIgniter\Database\BaseConnection->query('SELECT peg_kawin, nidn, peg_gel_dep, peg_nama, peg_gel_bel
+            FROM fip_dosen
+            GROUP BY peg_kawin')
+ 2 APPPATH\Controllers\MasterDosen.php(225): App\Models\DosenModel->getAllStatusPernikahan()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 19:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-14 19:39:13 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.fip_dosen.nidn' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT peg_kawi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT peg_kawi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT peg_kawi...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\DosenModel.php(310): CodeIgniter\Database\BaseConnection->query('SELECT peg_kawi...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(225): App\Models\DosenModel->getAllStatusPernikahan()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-14 19:39:13 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.fip_dosen.nidn' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\DosenModel.php(310): CodeIgniter\Database\BaseConnection->query('SELECT peg_kawin, nidn, peg_gel_dep, peg_nama, peg_gel_bel
+            FROM fip_dosen
+            GROUP BY peg_kawin')
+ 2 APPPATH\Controllers\MasterDosen.php(225): App\Models\DosenModel->getAllStatusPernikahan()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 19:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-14 19:39:13 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.fip_dosen.nidn' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT peg_kawi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT peg_kawi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT peg_kawi...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\DosenModel.php(310): CodeIgniter\Database\BaseConnection->query('SELECT peg_kawi...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(225): App\Models\DosenModel->getAllStatusPernikahan()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-14 19:39:13 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.fip_dosen.nidn' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\DosenModel.php(310): CodeIgniter\Database\BaseConnection->query('SELECT peg_kawin, nidn, peg_gel_dep, peg_nama, peg_gel_bel
+            FROM fip_dosen
+            GROUP BY peg_kawin')
+ 2 APPPATH\Controllers\MasterDosen.php(225): App\Models\DosenModel->getAllStatusPernikahan()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 21:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-14 21:08:34 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.fip_dosen.nidn' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT nidn, pe...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nidn, pe...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nidn, pe...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\DosenModel.php(208): CodeIgniter\Database\BaseConnection->query('SELECT nidn, pe...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(215): App\Models\DosenModel->getAllGelarDepan()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-14 21:08:34 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.fip_dosen.nidn' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\DosenModel.php(208): CodeIgniter\Database\BaseConnection->query('SELECT nidn, peg_gel_dep, peg_nama, peg_gel_bel, peg_gel_dep
+            FROM fip_dosen
+            GROUP BY peg_gel_dep
+            ORDER BY peg_gel_dep ASC')
+ 2 APPPATH\Controllers\MasterDosen.php(215): App\Models\DosenModel->getAllGelarDepan()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 21:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:10:06 --> CSRF token verified.
+INFO - 2024-05-14 21:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:11:07 --> CSRF token verified.
+INFO - 2024-05-14 21:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:11:22 --> CSRF token verified.
+INFO - 2024-05-14 21:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:11:38 --> CSRF token verified.
+INFO - 2024-05-14 21:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:11:44 --> CSRF token verified.
+INFO - 2024-05-14 21:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:12:12 --> CSRF token verified.
+INFO - 2024-05-14 21:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:12:42 --> CSRF token verified.
+INFO - 2024-05-14 21:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:16:11 --> CSRF token verified.
+INFO - 2024-05-14 21:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:16:26 --> CSRF token verified.
+INFO - 2024-05-14 21:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:19:58 --> CSRF token verified.
+INFO - 2024-05-14 21:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:20:36 --> CSRF token verified.
+INFO - 2024-05-14 21:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:21:00 --> CSRF token verified.
+INFO - 2024-05-14 21:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:21:20 --> CSRF token verified.
+INFO - 2024-05-14 21:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:21:58 --> CSRF token verified.
+INFO - 2024-05-14 22:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-14 22:22:05 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.fip_dosen.nidn' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT nidn, pe...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nidn, pe...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nidn, pe...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\DosenModel.php(208): CodeIgniter\Database\BaseConnection->query('SELECT nidn, pe...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterDosen.php(215): App\Models\DosenModel->getAllGelarDepan()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-14 22:22:05 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.fip_dosen.nidn' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\DosenModel.php(208): CodeIgniter\Database\BaseConnection->query('SELECT nidn, peg_gel_dep, peg_nama, peg_gel_bel, peg_gel_dep
+            FROM fip_dosen
+            GROUP BY peg_gel_dep
+            ORDER BY peg_gel_dep ASC')
+ 2 APPPATH\Controllers\MasterDosen.php(215): App\Models\DosenModel->getAllGelarDepan()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterDosen->pengaturan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDosen))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-14 22:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:29:34 --> CSRF token verified.
+INFO - 2024-05-14 22:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:29:43 --> CSRF token verified.
+INFO - 2024-05-14 22:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:29:48 --> CSRF token verified.
+INFO - 2024-05-14 22:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:29:54 --> CSRF token verified.
+INFO - 2024-05-14 22:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:29:59 --> CSRF token verified.
+INFO - 2024-05-14 22:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:30:08 --> CSRF token verified.
+INFO - 2024-05-14 22:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:30:14 --> CSRF token verified.
+INFO - 2024-05-14 22:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

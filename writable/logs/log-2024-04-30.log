@@ -1,0 +1,583 @@
+INFO - 2024-04-30 12:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 12:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 12:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 12:01:56 --> CSRF token verified.
+INFO - 2024-04-30 12:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 12:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 12:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 12:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 12:07:54 --> CSRF token verified.
+INFO - 2024-04-30 12:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 12:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 12:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 12:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 12:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 12:12:49 --> Undefined array key "nim"
+in APPPATH\Views\master_mahasiswa\v_mahasiswa.php on line 40.
+ 1 APPPATH\Views\master_mahasiswa\v_mahasiswa.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nim"', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_mahasiswa.php', 40)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_mahasiswa/v_mahasiswa', [], true)
+ 5 APPPATH\Controllers\MasterMahasiswa.php(47): view('master_mahasiswa/v_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 12:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 12:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-30 12:20:31 --> mysqli_sql_exception: Unknown column 'departemen._kd' in 'on clause' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profil`...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profil`...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profil`...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profil`...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Models\ProfilModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterMahasiswa.php(42): App\Models\ProfilModel->getAll()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->index()
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-04-30 12:20:31 --> Unknown column 'departemen._kd' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profil`.*, `departemen`.`departemen_nama` as `nama_departemen`
+FROM `profil`
+JOIN `departemen` ON `departemen`.`_kd` = `profil`.`idpdpt`', [], false)
+ 2 APPPATH\Models\ProfilModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\MasterMahasiswa.php(42): App\Models\ProfilModel->getAll()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 12:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 13:02:19 --> Undefined array key "nim"
+in APPPATH\Views\master_mahasiswa\v_master_mahasiswa.php on line 45.
+ 1 APPPATH\Views\master_mahasiswa\v_master_mahasiswa.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nim"', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_master_mahasiswa.php', 45)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_master_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_mahasiswa/v_master_mahasiswa', [], true)
+ 5 APPPATH\Controllers\MasterMahasiswa.php(47): view('master_mahasiswa/v_master_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 13:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 13:02:41 --> Undefined array key "prf)nim_portal"
+in APPPATH\Views\master_mahasiswa\v_master_mahasiswa.php on line 45.
+ 1 APPPATH\Views\master_mahasiswa\v_master_mahasiswa.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prf)nim_portal"', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_master_mahasiswa.php', 45)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_master_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_mahasiswa/v_master_mahasiswa', [], true)
+ 5 APPPATH\Controllers\MasterMahasiswa.php(47): view('master_mahasiswa/v_master_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 13:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 13:10:56 --> Undefined variable $persyaratan
+in APPPATH\Views\master_mahasiswa\v_detail_master_mahasiswa.php on line 278.
+ 1 APPPATH\Views\master_mahasiswa\v_detail_master_mahasiswa.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $persyaratan', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_detail_master_mahasiswa.php', 278)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_detail_master_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_mahasiswa/v_detail_master_mahasiswa', [], true)
+ 5 APPPATH\Controllers\MasterMahasiswa.php(61): view('master_mahasiswa/v_detail_master_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->detail('21022076')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 13:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 13:11:53 --> Undefined variable $satu_seminar
+in APPPATH\Views\master_mahasiswa\v_detail_master_mahasiswa.php on line 274.
+ 1 APPPATH\Views\master_mahasiswa\v_detail_master_mahasiswa.php(274): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $satu_seminar', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_detail_master_mahasiswa.php', 274)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_detail_master_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_mahasiswa/v_detail_master_mahasiswa', [], true)
+ 5 APPPATH\Controllers\MasterMahasiswa.php(61): view('master_mahasiswa/v_detail_master_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->detail('21022076')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 13:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 13:12:13 --> Undefined variable $satu_mahasiswa
+in APPPATH\Views\master_mahasiswa\v_detail_master_mahasiswa.php on line 274.
+ 1 APPPATH\Views\master_mahasiswa\v_detail_master_mahasiswa.php(274): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $satu_mahasiswa', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_detail_master_mahasiswa.php', 274)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_detail_master_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_mahasiswa/v_detail_master_mahasiswa', [], true)
+ 5 APPPATH\Controllers\MasterMahasiswa.php(61): view('master_mahasiswa/v_detail_master_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->detail('21022076')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 13:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 13:12:24 --> Attempt to read property "smr_nim_m" on array
+in APPPATH\Views\master_mahasiswa\v_detail_master_mahasiswa.php on line 274.
+ 1 APPPATH\Views\master_mahasiswa\v_detail_master_mahasiswa.php(274): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "smr_nim_m" on array', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_detail_master_mahasiswa.php', 274)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_detail_master_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_mahasiswa/v_detail_master_mahasiswa', [], true)
+ 5 APPPATH\Controllers\MasterMahasiswa.php(61): view('master_mahasiswa/v_detail_master_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->detail('21022076')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 13:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 13:12:42 --> Undefined array key "prf_nim_m"
+in APPPATH\Views\master_mahasiswa\v_detail_master_mahasiswa.php on line 274.
+ 1 APPPATH\Views\master_mahasiswa\v_detail_master_mahasiswa.php(274): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prf_nim_m"', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_detail_master_mahasiswa.php', 274)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_detail_master_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_mahasiswa/v_detail_master_mahasiswa', [], true)
+ 5 APPPATH\Controllers\MasterMahasiswa.php(61): view('master_mahasiswa/v_detail_master_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->detail('21022076')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 13:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-30 13:32:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN `departemen` ON `departemen`.`departemen_kd` = `profil`.`idpdpt`' at line 3 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profil`...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profil`...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profil`...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profil`...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Models\ProfilModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterMahasiswa.php(52): App\Models\ProfilModel->getNullDepartemen()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->bermasalah_idpdpt()
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-04-30 13:32:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN `departemen` ON `departemen`.`departemen_kd` = `profil`.`idpdpt`' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profil`.*, `departemen`.`departemen_nama` as `nama_departemen`
+FROM `profil`
+OUTER JOIN `departemen` ON `departemen`.`departemen_kd` = `profil`.`idpdpt`', [], false)
+ 2 APPPATH\Models\ProfilModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\MasterMahasiswa.php(52): App\Models\ProfilModel->getNullDepartemen()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->bermasalah_idpdpt()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 13:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-30 13:38:17 --> mysqli_sql_exception: Unknown column 'nama_departemen' in 'where clause' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profil`...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profil`...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profil`...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profil`...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Models\ProfilModel.php(59): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterMahasiswa.php(52): App\Models\ProfilModel->getNullDepartemen()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->bermasalah_idpdpt()
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-04-30 13:38:17 --> Unknown column 'nama_departemen' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profil`.*, `departemen`.`departemen_nama` as `nama_departemen`
+FROM `profil`
+LEFT JOIN `departemen` ON `departemen`.`departemen_kd` = `profil`.`idpdpt`
+WHERE `nama_departemen` = :nama_departemen:', [...], false)
+ 2 APPPATH\Models\ProfilModel.php(59): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\MasterMahasiswa.php(52): App\Models\ProfilModel->getNullDepartemen()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->bermasalah_idpdpt()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 13:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:41:09 --> CSRF token verified.
+INFO - 2024-04-30 13:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:41:22 --> CSRF token verified.
+ERROR - 2024-04-30 13:41:22 --> mysqli_sql_exception: Column 'departemen_input' cannot be null in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Models\ProfilModel.php(90): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\ciempatmonitoringenam\app\Controllers\Profil.php(163): App\Models\ProfilModel->updateVerifikasiProfil(Array, '20005014')
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\Profil->update_verifikasi()
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-04-30 13:41:22 --> Column 'departemen_input' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `profil` (`prf_uuid`, `prf_nim_portal`, `thn_msk_portal`, `prf_nama_portal`, `tmp_lahir_portal`, `tgl_lahir_portal`, `jk`, `agama`, `nohp_portal`, `nohp_baru`, `nowa`, `email`, `idpdpt`, `departemen_input`, `idprodi_portal`, `prodi_input`, `prodi_portal`, `nama_jurusan_portal`, `kd_jurusan_portal`, `id_fakultas_portal`, `nama_fakultas_portal`, `jjp_portal`, `jjp_input`, `alamat_lengkap`, `sudah_edit`) VALUES (UUID(), :prf_nim_portal:, :thn_msk_portal:, :prf_nama_portal:, :tmp_lahir_portal:, :tgl_lahir_portal:, :jk:, :agama:, :nohp_portal:, :nohp_baru:, :nowa:, :email:, :idpdpt:, :departemen_input:, :idprodi_portal:, :prodi_input:, :prodi_portal:, :nama_jurusan_portal:, :kd_jurusan_portal:, :id_fakultas_portal:, :nama_fakultas_portal:, :jjp_portal:, :jjp_input:, :alamat_lengkap:, :sudah_edit:)', [...], false)
+ 2 APPPATH\Models\ProfilModel.php(90): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Profil.php(163): App\Models\ProfilModel->updateVerifikasiProfil([...], '20005014')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->update_verifikasi()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 13:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:41:44 --> CSRF token verified.
+ERROR - 2024-04-30 13:41:44 --> mysqli_sql_exception: Duplicate entry '20005014' for key 'progres_skripsi.PRIMARY' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\ciempatmonitoringenam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\ciempatmonitoringenam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\ciempatmonitoringenam\app\Controllers\Profil.php(162): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\Profil->update_verifikasi()
+#9 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#10 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-04-30 13:41:44 --> Duplicate entry '20005014' for key 'progres_skripsi.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `progres_skripsi` (`nim`, `status`, `created_at`, `updated_at`) VALUES (:nim:, :status:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Profil.php(162): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->update_verifikasi()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 13:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:42:10 --> CSRF token verified.
+ERROR - 2024-04-30 13:42:10 --> mysqli_sql_exception: Column 'prodi_input' cannot be null in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Models\ProfilModel.php(90): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\ciempatmonitoringenam\app\Controllers\Profil.php(163): App\Models\ProfilModel->updateVerifikasiProfil(Array, '20005014')
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\Profil->update_verifikasi()
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-04-30 13:42:10 --> Column 'prodi_input' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `profil` (`prf_uuid`, `prf_nim_portal`, `thn_msk_portal`, `prf_nama_portal`, `tmp_lahir_portal`, `tgl_lahir_portal`, `jk`, `agama`, `nohp_portal`, `nohp_baru`, `nowa`, `email`, `idpdpt`, `departemen_input`, `idprodi_portal`, `prodi_input`, `prodi_portal`, `nama_jurusan_portal`, `kd_jurusan_portal`, `id_fakultas_portal`, `nama_fakultas_portal`, `jjp_portal`, `jjp_input`, `alamat_lengkap`, `sudah_edit`) VALUES (UUID(), :prf_nim_portal:, :thn_msk_portal:, :prf_nama_portal:, :tmp_lahir_portal:, :tgl_lahir_portal:, :jk:, :agama:, :nohp_portal:, :nohp_baru:, :nowa:, :email:, :idpdpt:, :departemen_input:, :idprodi_portal:, :prodi_input:, :prodi_portal:, :nama_jurusan_portal:, :kd_jurusan_portal:, :id_fakultas_portal:, :nama_fakultas_portal:, :jjp_portal:, :jjp_input:, :alamat_lengkap:, :sudah_edit:)', [...], false)
+ 2 APPPATH\Models\ProfilModel.php(90): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Profil.php(163): App\Models\ProfilModel->updateVerifikasiProfil([...], '20005014')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->update_verifikasi()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 13:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:42:54 --> CSRF token verified.
+INFO - 2024-04-30 13:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:43:49 --> CSRF token verified.
+INFO - 2024-04-30 13:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:44:05 --> CSRF token verified.
+INFO - 2024-04-30 13:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:44:24 --> CSRF token verified.
+INFO - 2024-04-30 13:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-30 13:45:34 --> mysqli_sql_exception: Unknown column 'nama_departemen' in 'where clause' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `profil`...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profil`...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profil`...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profil`...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Models\ProfilModel.php(59): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterMahasiswa.php(52): App\Models\ProfilModel->getNullDepartemen()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->bermasalah_idpdpt()
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-04-30 13:45:34 --> Unknown column 'nama_departemen' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `profil`.*, `departemen`.`departemen_nama` as `nama_departemen`
+FROM `profil`
+LEFT JOIN `departemen` ON `departemen`.`departemen_kd` = `profil`.`idpdpt`
+WHERE `nama_departemen` = :nama_departemen:', [...], false)
+ 2 APPPATH\Models\ProfilModel.php(59): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\MasterMahasiswa.php(52): App\Models\ProfilModel->getNullDepartemen()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->bermasalah_idpdpt()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 13:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 13:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 14:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 14:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 14:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 14:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 14:57:42 --> Invalid file: "master_mahasiswa/v_detail_master_mahasiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master_mahasiswa/v_detail_master_mahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_mahasiswa/v_detail_master_mahasiswa', [], true)
+ 3 APPPATH\Controllers\MasterMahasiswa.php(71): view('master_mahasiswa/v_detail_master_mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->detail('21022076')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 14:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 14:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 14:57:53 --> Invalid file: "master_mahasiswa/v_detail_master_mahasiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master_mahasiswa/v_detail_master_mahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_mahasiswa/v_detail_master_mahasiswa', [], true)
+ 3 APPPATH\Controllers\MasterMahasiswa.php(71): view('master_mahasiswa/v_detail_master_mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->detail('21022076')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 14:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 14:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 15:00:25 --> Undefined array key "nama_departemen"
+in APPPATH\Views\master_mahasiswa\v_edit_master_mahasiswa.php on line 98.
+ 1 APPPATH\Views\master_mahasiswa\v_edit_master_mahasiswa.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_departemen"', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_edit_master_mahasiswa.php', 98)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_edit_master_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_mahasiswa/v_edit_master_mahasiswa', [], true)
+ 5 APPPATH\Controllers\MasterMahasiswa.php(89): view('master_mahasiswa/v_edit_master_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->edit('21022076')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 15:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 15:07:18 --> Undefined variable $departemen_by_id
+in APPPATH\Views\master_mahasiswa\v_edit_master_mahasiswa.php on line 68.
+ 1 APPPATH\Views\master_mahasiswa\v_edit_master_mahasiswa.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departemen_by_id', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_edit_master_mahasiswa.php', 68)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_edit_master_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_mahasiswa/v_edit_master_mahasiswa', [], true)
+ 5 APPPATH\Controllers\MasterMahasiswa.php(89): view('master_mahasiswa/v_edit_master_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->edit('21022076')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 15:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 15:24:03 --> Undefined array key "nama_departemen"
+in APPPATH\Views\master_mahasiswa\v_edit_master_mahasiswa.php on line 100.
+ 1 APPPATH\Views\master_mahasiswa\v_edit_master_mahasiswa.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_departemen"', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_edit_master_mahasiswa.php', 100)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_edit_master_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_mahasiswa/v_edit_master_mahasiswa', [], true)
+ 5 APPPATH\Controllers\MasterMahasiswa.php(89): view('master_mahasiswa/v_edit_master_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->edit('21022076')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 15:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 15:25:49 --> Call to undefined function validation_list_errors()
+in APPPATH\Views\master_mahasiswa\v_master_mahasiswa.php on line 19.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_mahasiswa/v_master_mahasiswa', [], true)
+ 4 APPPATH\Controllers\MasterMahasiswa.php(47): view('master_mahasiswa/v_master_mahasiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 15:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 15:26:11 --> Call to undefined function validation_show_error()
+in APPPATH\Views\master_mahasiswa\v_master_mahasiswa.php on line 19.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_mahasiswa/v_master_mahasiswa', [], true)
+ 4 APPPATH\Controllers\MasterMahasiswa.php(47): view('master_mahasiswa/v_master_mahasiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 15:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 15:26:38 --> Call to undefined function validation_list_errors()
+in APPPATH\Views\master_mahasiswa\v_edit_master_mahasiswa.php on line 18.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_mahasiswa/v_edit_master_mahasiswa', [], true)
+ 4 APPPATH\Controllers\MasterMahasiswa.php(89): view('master_mahasiswa/v_edit_master_mahasiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->edit('21022076')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 15:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 15:26:53 --> Call to undefined function validation_show_error()
+in APPPATH\Views\master_mahasiswa\v_edit_master_mahasiswa.php on line 18.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_mahasiswa/v_edit_master_mahasiswa', [], true)
+ 4 APPPATH\Controllers\MasterMahasiswa.php(89): view('master_mahasiswa/v_edit_master_mahasiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->edit('21022076')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 15:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 15:27:11 --> Call to undefined function validation_errors()
+in APPPATH\Views\master_mahasiswa\v_edit_master_mahasiswa.php on line 68.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_mahasiswa/v_edit_master_mahasiswa', [], true)
+ 4 APPPATH\Controllers\MasterMahasiswa.php(89): view('master_mahasiswa/v_edit_master_mahasiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->edit('21022076')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 15:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 15:27:17 --> Call to undefined function validation_list_errors()
+in APPPATH\Views\master_mahasiswa\v_edit_master_mahasiswa.php on line 68.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_mahasiswa/v_edit_master_mahasiswa', [], true)
+ 4 APPPATH\Controllers\MasterMahasiswa.php(89): view('master_mahasiswa/v_edit_master_mahasiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->edit('21022076')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 15:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:28:32 --> CSRF token verified.
+INFO - 2024-04-30 15:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 15:34:15 --> Undefined variable $validation
+in APPPATH\Views\master_mahasiswa\v_edit_master_mahasiswa.php on line 19.
+ 1 APPPATH\Views\master_mahasiswa\v_edit_master_mahasiswa.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_edit_master_mahasiswa.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_mahasiswa\\v_edit_master_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_mahasiswa/v_edit_master_mahasiswa', [], true)
+ 5 APPPATH\Controllers\MasterMahasiswa.php(90): view('master_mahasiswa/v_edit_master_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterMahasiswa->edit('20005014')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-04-30 15:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:34:46 --> CSRF token verified.
+INFO - 2024-04-30 15:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:35:35 --> CSRF token verified.
+INFO - 2024-04-30 15:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:35:41 --> CSRF token verified.
+INFO - 2024-04-30 15:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 15:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 16:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 16:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 16:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

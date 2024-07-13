@@ -1,0 +1,806 @@
+INFO - 2024-05-16 09:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:11:21 --> CSRF token verified.
+INFO - 2024-05-16 09:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 09:11:41 --> Undefined array key ""
+in APPPATH\Views\master_judul\v_master_judul.php on line 46.
+ 1 APPPATH\Views\master_judul\v_master_judul.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_judul\\v_master_judul.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_judul\\v_master_judul.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_judul/v_master_judul', [], true)
+ 5 APPPATH\Controllers\MasterJudul.php(23): view('master_judul/v_master_judul', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 09:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 09:15:22 --> Undefined property: App\Controllers\MasterJudul::$dosenModel
+in APPPATH\Controllers\MasterJudul.php on line 212.
+ 1 APPPATH\Controllers\MasterJudul.php(212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\MasterJudul::$dosenModel', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Controllers\\MasterJudul.php', 212)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->pengaturan()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 09:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 09:23:05 --> Undefined property: App\Controllers\MasterJudul::$dosenModel
+in APPPATH\Controllers\MasterJudul.php on line 212.
+ 1 APPPATH\Controllers\MasterJudul.php(212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\MasterJudul::$dosenModel', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Controllers\\MasterJudul.php', 212)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 09:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 09:23:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'COUNT(*) AS total_pengajuan
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembim' at line 2 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `skripsi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `skripsi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `skripsi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Models\SkripsiModel.php(105): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterJudul.php(212): App\Models\SkripsiModel->getAllJudulDouble()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-05-16 09:23:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'COUNT(*) AS total_pengajuan
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembim' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi`.*, `fip_dosen_pembimbing`.`nidn` as `d_pembimbing_nidn`, `fip_dosen_pembimbing`.`peg_gel_dep` as `d_pembimbing_peg_gel_dep`, `fip_dosen_pembimbing`.`peg_nama` as `d_pembimbing_peg_nama`, `fip_dosen_pembimbing`.`peg_gel_bel` as `d_pembimbing_peg_gel_bel`, `fip_dosen_pa`.`nidn` as `d_pa_nidn`, `fip_dosen_pa`.`peg_gel_dep` as `d_pa_peg_gel_dep`, `fip_dosen_pa`.`peg_nama` as `d_pa_peg_nama`, `fip_dosen_pa`.`peg_gel_bel` as `d_pa_peg_gel_bel`, `profil`.`departemen_input`, departemen.departemen_nama as nama_departemen
+        COUNT(*) AS total_pengajuan
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembimbing` ON `fip_dosen_pembimbing`.`nidn` = `skripsi`.`dosen_pembimbing`
+JOIN `fip_dosen` as `fip_dosen_pa` ON `fip_dosen_pa`.`nidn` = `skripsi`.`dosen_pa`
+JOIN `profil` ON `skripsi`.`nim_mahasiswa` = `profil`.`prf_nim_portal`
+JOIN `departemen` ON `profil`.`departemen_input` = `departemen`.`departemen_id`
+GROUP BY `skripsi`.`nim_mahasiswa`
+ORDER BY `created_at` DESC', [], false)
+ 2 APPPATH\Models\SkripsiModel.php(105): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\MasterJudul.php(212): App\Models\SkripsiModel->getAllJudulDouble()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 09:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 09:24:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as `total`) AS `* as total`
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembim' at line 1 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `skripsi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `skripsi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `skripsi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Models\SkripsiModel.php(105): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterJudul.php(212): App\Models\SkripsiModel->getAllJudulDouble()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-05-16 09:24:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as `total`) AS `* as total`
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembim' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi`.*, `fip_dosen_pembimbing`.`nidn` as `d_pembimbing_nidn`, `fip_dosen_pembimbing`.`peg_gel_dep` as `d_pembimbing_peg_gel_dep`, `fip_dosen_pembimbing`.`peg_nama` as `d_pembimbing_peg_nama`, `fip_dosen_pembimbing`.`peg_gel_bel` as `d_pembimbing_peg_gel_bel`, `fip_dosen_pa`.`nidn` as `d_pa_nidn`, `fip_dosen_pa`.`peg_gel_dep` as `d_pa_peg_gel_dep`, `fip_dosen_pa`.`peg_nama` as `d_pa_peg_nama`, `fip_dosen_pa`.`peg_gel_bel` as `d_pa_peg_gel_bel`, `profil`.`departemen_input`, `departemen`.`departemen_nama` as `nama_departemen`, COUNT(* as `total`) AS `* as total`
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembimbing` ON `fip_dosen_pembimbing`.`nidn` = `skripsi`.`dosen_pembimbing`
+JOIN `fip_dosen` as `fip_dosen_pa` ON `fip_dosen_pa`.`nidn` = `skripsi`.`dosen_pa`
+JOIN `profil` ON `skripsi`.`nim_mahasiswa` = `profil`.`prf_nim_portal`
+JOIN `departemen` ON `profil`.`departemen_input` = `departemen`.`departemen_id`
+GROUP BY `skripsi`.`nim_mahasiswa`
+ORDER BY `created_at` DESC', [], false)
+ 2 APPPATH\Models\SkripsiModel.php(105): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\MasterJudul.php(212): App\Models\SkripsiModel->getAllJudulDouble()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 09:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 09:24:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembimbing` ON `fip_dosen_pembim' at line 1 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `skripsi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `skripsi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `skripsi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Models\SkripsiModel.php(105): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterJudul.php(212): App\Models\SkripsiModel->getAllJudulDouble()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-05-16 09:24:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembimbing` ON `fip_dosen_pembim' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi`.*, `fip_dosen_pembimbing`.`nidn` as `d_pembimbing_nidn`, `fip_dosen_pembimbing`.`peg_gel_dep` as `d_pembimbing_peg_gel_dep`, `fip_dosen_pembimbing`.`peg_nama` as `d_pembimbing_peg_nama`, `fip_dosen_pembimbing`.`peg_gel_bel` as `d_pembimbing_peg_gel_bel`, `fip_dosen_pa`.`nidn` as `d_pa_nidn`, `fip_dosen_pa`.`peg_gel_dep` as `d_pa_peg_gel_dep`, `fip_dosen_pa`.`peg_nama` as `d_pa_peg_nama`, `fip_dosen_pa`.`peg_gel_bel` as `d_pa_peg_gel_bel`, `profil`.`departemen_input`, `departemen`.`departemen_nama` as `nama_departemen`, COUNT(*) AS *
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembimbing` ON `fip_dosen_pembimbing`.`nidn` = `skripsi`.`dosen_pembimbing`
+JOIN `fip_dosen` as `fip_dosen_pa` ON `fip_dosen_pa`.`nidn` = `skripsi`.`dosen_pa`
+JOIN `profil` ON `skripsi`.`nim_mahasiswa` = `profil`.`prf_nim_portal`
+JOIN `departemen` ON `profil`.`departemen_input` = `departemen`.`departemen_id`
+GROUP BY `skripsi`.`nim_mahasiswa`
+ORDER BY `created_at` DESC', [], false)
+ 2 APPPATH\Models\SkripsiModel.php(105): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\MasterJudul.php(212): App\Models\SkripsiModel->getAllJudulDouble()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 09:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 09:24:44 --> mysqli_sql_exception: Unknown column 'nim' in 'field list' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `skripsi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `skripsi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `skripsi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Models\SkripsiModel.php(105): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterJudul.php(212): App\Models\SkripsiModel->getAllJudulDouble()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-05-16 09:24:44 --> Unknown column 'nim' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi`.*, `fip_dosen_pembimbing`.`nidn` as `d_pembimbing_nidn`, `fip_dosen_pembimbing`.`peg_gel_dep` as `d_pembimbing_peg_gel_dep`, `fip_dosen_pembimbing`.`peg_nama` as `d_pembimbing_peg_nama`, `fip_dosen_pembimbing`.`peg_gel_bel` as `d_pembimbing_peg_gel_bel`, `fip_dosen_pa`.`nidn` as `d_pa_nidn`, `fip_dosen_pa`.`peg_gel_dep` as `d_pa_peg_gel_dep`, `fip_dosen_pa`.`peg_nama` as `d_pa_peg_nama`, `fip_dosen_pa`.`peg_gel_bel` as `d_pa_peg_gel_bel`, `profil`.`departemen_input`, `departemen`.`departemen_nama` as `nama_departemen`, COUNT(`nim`) AS `nim`
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembimbing` ON `fip_dosen_pembimbing`.`nidn` = `skripsi`.`dosen_pembimbing`
+JOIN `fip_dosen` as `fip_dosen_pa` ON `fip_dosen_pa`.`nidn` = `skripsi`.`dosen_pa`
+JOIN `profil` ON `skripsi`.`nim_mahasiswa` = `profil`.`prf_nim_portal`
+JOIN `departemen` ON `profil`.`departemen_input` = `departemen`.`departemen_id`
+GROUP BY `skripsi`.`nim_mahasiswa`
+ORDER BY `created_at` DESC', [], false)
+ 2 APPPATH\Models\SkripsiModel.php(105): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\MasterJudul.php(212): App\Models\SkripsiModel->getAllJudulDouble()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 09:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 09:24:56 --> mysqli_sql_exception: Unknown column 'skripsi.nim_pengajuan' in 'field list' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `skripsi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `skripsi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `skripsi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Models\SkripsiModel.php(105): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterJudul.php(212): App\Models\SkripsiModel->getAllJudulDouble()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-05-16 09:24:56 --> Unknown column 'skripsi.nim_pengajuan' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi`.*, `fip_dosen_pembimbing`.`nidn` as `d_pembimbing_nidn`, `fip_dosen_pembimbing`.`peg_gel_dep` as `d_pembimbing_peg_gel_dep`, `fip_dosen_pembimbing`.`peg_nama` as `d_pembimbing_peg_nama`, `fip_dosen_pembimbing`.`peg_gel_bel` as `d_pembimbing_peg_gel_bel`, `fip_dosen_pa`.`nidn` as `d_pa_nidn`, `fip_dosen_pa`.`peg_gel_dep` as `d_pa_peg_gel_dep`, `fip_dosen_pa`.`peg_nama` as `d_pa_peg_nama`, `fip_dosen_pa`.`peg_gel_bel` as `d_pa_peg_gel_bel`, `profil`.`departemen_input`, `departemen`.`departemen_nama` as `nama_departemen`, COUNT(`skripsi`.`nim_pengajuan`) AS `nim_pengajuan`
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembimbing` ON `fip_dosen_pembimbing`.`nidn` = `skripsi`.`dosen_pembimbing`
+JOIN `fip_dosen` as `fip_dosen_pa` ON `fip_dosen_pa`.`nidn` = `skripsi`.`dosen_pa`
+JOIN `profil` ON `skripsi`.`nim_mahasiswa` = `profil`.`prf_nim_portal`
+JOIN `departemen` ON `profil`.`departemen_input` = `departemen`.`departemen_id`
+GROUP BY `skripsi`.`nim_mahasiswa`
+ORDER BY `created_at` DESC', [], false)
+ 2 APPPATH\Models\SkripsiModel.php(105): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\MasterJudul.php(212): App\Models\SkripsiModel->getAllJudulDouble()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 09:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 09:25:10 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.skripsi.skripsi_uuid' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `skripsi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `skripsi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `skripsi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Models\SkripsiModel.php(105): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterJudul.php(212): App\Models\SkripsiModel->getAllJudulDouble()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-05-16 09:25:10 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.skripsi.skripsi_uuid' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi`.*, `fip_dosen_pembimbing`.`nidn` as `d_pembimbing_nidn`, `fip_dosen_pembimbing`.`peg_gel_dep` as `d_pembimbing_peg_gel_dep`, `fip_dosen_pembimbing`.`peg_nama` as `d_pembimbing_peg_nama`, `fip_dosen_pembimbing`.`peg_gel_bel` as `d_pembimbing_peg_gel_bel`, `fip_dosen_pa`.`nidn` as `d_pa_nidn`, `fip_dosen_pa`.`peg_gel_dep` as `d_pa_peg_gel_dep`, `fip_dosen_pa`.`peg_nama` as `d_pa_peg_nama`, `fip_dosen_pa`.`peg_gel_bel` as `d_pa_peg_gel_bel`, `profil`.`departemen_input`, `departemen`.`departemen_nama` as `nama_departemen`, COUNT(`skripsi`.`nim_mahasiswa`) AS `nim_mahasiswa`
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembimbing` ON `fip_dosen_pembimbing`.`nidn` = `skripsi`.`dosen_pembimbing`
+JOIN `fip_dosen` as `fip_dosen_pa` ON `fip_dosen_pa`.`nidn` = `skripsi`.`dosen_pa`
+JOIN `profil` ON `skripsi`.`nim_mahasiswa` = `profil`.`prf_nim_portal`
+JOIN `departemen` ON `profil`.`departemen_input` = `departemen`.`departemen_id`
+GROUP BY `skripsi`.`nim_mahasiswa`
+ORDER BY `created_at` DESC', [], false)
+ 2 APPPATH\Models\SkripsiModel.php(105): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\MasterJudul.php(212): App\Models\SkripsiModel->getAllJudulDouble()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 09:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 09:33:17 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.skripsi.nama_mahasiswa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT skripsi....', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT skripsi....')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT skripsi....')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\SkripsiModel.php(109): CodeIgniter\Database\BaseConnection->query('SELECT skripsi....')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterJudul.php(212): App\Models\SkripsiModel->getAllJudulDouble()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-16 09:33:17 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.skripsi.nama_mahasiswa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\SkripsiModel.php(109): CodeIgniter\Database\BaseConnection->query('SELECT skripsi.nim_mahasiswa, skripsi.nama_mahasiswa, skripsi.judul_skripsi, COUNT(*)
+            FROM 
+                skripsi
+            GROUP BY 
+                nim_mahasiswa
+            HAVING
+                COUNT(*) > 1')
+ 2 APPPATH\Controllers\MasterJudul.php(212): App\Models\SkripsiModel->getAllJudulDouble()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 09:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 09:34:03 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.skripsi.nama_mahasiswa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT nim_maha...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nim_maha...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nim_maha...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\SkripsiModel.php(109): CodeIgniter\Database\BaseConnection->query('SELECT nim_maha...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterJudul.php(212): App\Models\SkripsiModel->getAllJudulDouble()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-16 09:34:03 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.skripsi.nama_mahasiswa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\SkripsiModel.php(109): CodeIgniter\Database\BaseConnection->query('SELECT nim_mahasiswa, nama_mahasiswa, judul_skripsi, COUNT(*)
+            FROM 
+                skripsi
+            GROUP BY 
+                nim_mahasiswa
+            HAVING
+                COUNT(*) > 1')
+ 2 APPPATH\Controllers\MasterJudul.php(212): App\Models\SkripsiModel->getAllJudulDouble()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 09:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 09:34:04 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.skripsi.nama_mahasiswa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT nim_maha...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nim_maha...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nim_maha...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\SkripsiModel.php(109): CodeIgniter\Database\BaseConnection->query('SELECT nim_maha...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterJudul.php(212): App\Models\SkripsiModel->getAllJudulDouble()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-16 09:34:04 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.skripsi.nama_mahasiswa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\SkripsiModel.php(109): CodeIgniter\Database\BaseConnection->query('SELECT nim_mahasiswa, nama_mahasiswa, judul_skripsi, COUNT(*)
+            FROM 
+                skripsi
+            GROUP BY 
+                nim_mahasiswa
+            HAVING
+                COUNT(*) > 1')
+ 2 APPPATH\Controllers\MasterJudul.php(212): App\Models\SkripsiModel->getAllJudulDouble()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 09:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 09:41:36 --> mysqli_sql_exception: Unknown column 'departemen.departemen_input' in 'field list' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT nim_maha...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nim_maha...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nim_maha...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\SkripsiModel.php(122): CodeIgniter\Database\BaseConnection->query('SELECT nim_maha...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterJudul.php(212): App\Models\SkripsiModel->getAllJudulDouble()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-16 09:41:36 --> Unknown column 'departemen.departemen_input' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\SkripsiModel.php(122): CodeIgniter\Database\BaseConnection->query('SELECT nim_mahasiswa, nama_mahasiswa, departemen.departemen_input as nama_departemen, judul_skripsi, COUNT(*) AS total_pengajuan
+            FROM 
+                skripsi
+            INNER JOIN profil ON skripsi.nim_mahasiswa = profil.prf_nim_portal
+            GROUP BY 
+                nim_mahasiswa
+            HAVING
+                COUNT(*) > 1')
+ 2 APPPATH\Controllers\MasterJudul.php(212): App\Models\SkripsiModel->getAllJudulDouble()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 09:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 09:41:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as nama_departemen, judul_skripsi, COUNT(*) AS total_pengajuan
+            FROM' at line 1 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT nim_maha...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nim_maha...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nim_maha...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\SkripsiModel.php(122): CodeIgniter\Database\BaseConnection->query('SELECT nim_maha...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterJudul.php(212): App\Models\SkripsiModel->getAllJudulDouble()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-16 09:41:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as nama_departemen, judul_skripsi, COUNT(*) AS total_pengajuan
+            FROM' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\SkripsiModel.php(122): CodeIgniter\Database\BaseConnection->query('SELECT nim_mahasiswa, nama_mahasiswa,  as nama_departemen, judul_skripsi, COUNT(*) AS total_pengajuan
+            FROM 
+                skripsi
+            INNER JOIN profil ON skripsi.nim_mahasiswa = profil.prf_nim_portal
+            GROUP BY 
+                nim_mahasiswa
+            HAVING
+                COUNT(*) > 1')
+ 2 APPPATH\Controllers\MasterJudul.php(212): App\Models\SkripsiModel->getAllJudulDouble()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 09:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 09:48:05 --> Undefined array key "judul_skripsi"
+in APPPATH\Views\master_judul\v_pengajuan_bermasalah.php on line 45.
+ 1 APPPATH\Views\master_judul\v_pengajuan_bermasalah.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "judul_skripsi"', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_judul\\v_pengajuan_bermasalah.php', 45)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_judul\\v_pengajuan_bermasalah.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_judul/v_pengajuan_bermasalah', [], true)
+ 5 APPPATH\Controllers\MasterJudul.php(217): view('master_judul/v_pengajuan_bermasalah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 09:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 09:48:17 --> Undefined array key "judul"
+in APPPATH\Views\master_judul\v_pengajuan_bermasalah.php on line 45.
+ 1 APPPATH\Views\master_judul\v_pengajuan_bermasalah.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "judul"', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_judul\\v_pengajuan_bermasalah.php', 45)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_judul\\v_pengajuan_bermasalah.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_judul/v_pengajuan_bermasalah', [], true)
+ 5 APPPATH\Controllers\MasterJudul.php(217): view('master_judul/v_pengajuan_bermasalah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 09:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 09:48:41 --> Undefined array key "skripsi_uuid"
+in APPPATH\Views\master_judul\v_pengajuan_bermasalah.php on line 46.
+ 1 APPPATH\Views\master_judul\v_pengajuan_bermasalah.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "skripsi_uuid"', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_judul\\v_pengajuan_bermasalah.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_judul\\v_pengajuan_bermasalah.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_judul/v_pengajuan_bermasalah', [], true)
+ 5 APPPATH\Controllers\MasterJudul.php(217): view('master_judul/v_pengajuan_bermasalah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 09:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 09:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 10:04:11 --> mysqli_sql_exception: Unknown column 'profil.nim_mahasiswa' in 'where clause' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `skripsi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `skripsi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `skripsi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Models\SkripsiModel.php(211): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterJudul.php(30): App\Models\SkripsiModel->getDetailByNim('21022076')
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterJudul->detail('21022076')
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-05-16 10:04:11 --> Unknown column 'profil.nim_mahasiswa' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi`.*, `fip_dosen_pembimbing`.`nidn` as `d_pembimbing_nidn`, `fip_dosen_pembimbing`.`peg_gel_dep` as `d_pembimbing_peg_gel_dep`, `fip_dosen_pembimbing`.`peg_nama` as `d_pembimbing_peg_nama`, `fip_dosen_pembimbing`.`peg_gel_bel` as `d_pembimbing_peg_gel_bel`, `fip_dosen_pa`.`nidn` as `d_pa_nidn`, `fip_dosen_pa`.`peg_gel_dep` as `d_pa_peg_gel_dep`, `fip_dosen_pa`.`peg_nama` as `d_pa_peg_nama`, `fip_dosen_pa`.`peg_gel_bel` as `d_pa_peg_gel_bel`, `profil`.`departemen_input`
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembimbing` ON `fip_dosen_pembimbing`.`nidn` = `skripsi`.`dosen_pembimbing`
+JOIN `fip_dosen` as `fip_dosen_pa` ON `fip_dosen_pa`.`nidn` = `skripsi`.`dosen_pa`
+JOIN `profil` ON `skripsi`.`nim_mahasiswa` = `profil`.`prf_nim_portal`
+WHERE `profil`.`nim_mahasiswa` = :profil.nim_mahasiswa:
+ORDER BY `status_pengajuan_skripsi` ASC', [...], false)
+ 2 APPPATH\Models\SkripsiModel.php(211): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\MasterJudul.php(30): App\Models\SkripsiModel->getDetailByNim('21022076')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->detail('21022076')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 10:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 10:17:09 --> Undefined array key "d_pembimbing_nama"
+in APPPATH\Views\master_judul\v_detail_master_judul.php on line 64.
+ 1 APPPATH\Views\master_judul\v_detail_master_judul.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "d_pembimbing_nama"', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_judul\\v_detail_master_judul.php', 64)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_judul\\v_detail_master_judul.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_judul/v_detail_master_judul', [], true)
+ 5 APPPATH\Controllers\MasterJudul.php(38): view('master_judul/v_detail_master_judul', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->detail('21022076')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 10:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 10:24:02 --> Cannot access offset of type string on string
+in APPPATH\Views\master_judul\v_detail_master_judul.php on line 28.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_judul/v_detail_master_judul', [], true)
+ 4 APPPATH\Controllers\MasterJudul.php(38): view('master_judul/v_detail_master_judul', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->detail('21bebf08-11fd-11ef-afd2-a85e4536f907')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 10:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 10:24:11 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\MasterJudul.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Controllers\\MasterJudul.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MasterJudul')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MasterJudul')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\MasterJudul', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 10:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 10:25:01 --> Undefined array key "nama_departemen"
+in APPPATH\Views\master_judul\v_detail_master_judul.php on line 39.
+ 1 APPPATH\Views\master_judul\v_detail_master_judul.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_departemen"', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_judul\\v_detail_master_judul.php', 39)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_judul\\v_detail_master_judul.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_judul/v_detail_master_judul', [], true)
+ 5 APPPATH\Controllers\MasterJudul.php(38): view('master_judul/v_detail_master_judul', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->detail('21bebf08-11fd-11ef-afd2-a85e4536f907')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 10:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 10:28:46 --> Undefined array key "nama_departemen"
+in APPPATH\Views\master_judul\v_detail_master_judul.php on line 36.
+ 1 APPPATH\Views\master_judul\v_detail_master_judul.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_departemen"', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_judul\\v_detail_master_judul.php', 36)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\master_judul\\v_detail_master_judul.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master_judul/v_detail_master_judul', [], true)
+ 5 APPPATH\Controllers\MasterJudul.php(38): view('master_judul/v_detail_master_judul', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->detail('21bebf08-11fd-11ef-afd2-a85e4536f907')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 10:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 10:31:26 --> mysqli_sql_exception: Unknown column 'departemen.departeme_id' in 'on clause' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `skripsi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `skripsi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `skripsi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Models\SkripsiModel.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterJudul.php(30): App\Models\SkripsiModel->getDetailByUuidByAdmin('21bebf08-11fd-1...')
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterJudul->detail('21bebf08-11fd-1...')
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-05-16 10:31:26 --> Unknown column 'departemen.departeme_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi`.*, `fip_dosen_pembimbing`.`nidn` as `d_pembimbing_nidn`, `fip_dosen_pembimbing`.`peg_gel_dep` as `d_pembimbing_peg_gel_dep`, `fip_dosen_pembimbing`.`peg_nama` as `d_pembimbing_peg_nama`, `fip_dosen_pembimbing`.`peg_gel_bel` as `d_pembimbing_peg_gel_bel`, `fip_dosen_pa`.`nidn` as `d_pa_nidn`, `fip_dosen_pa`.`peg_gel_dep` as `d_pa_peg_gel_dep`, `fip_dosen_pa`.`peg_nama` as `d_pa_peg_nama`, `fip_dosen_pa`.`peg_gel_bel` as `d_pa_peg_gel_bel`, `profil`.`departemen_input`, `departemen`.`departemen_nama` as `nama_departemen`
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembimbing` ON `fip_dosen_pembimbing`.`nidn` = `skripsi`.`dosen_pembimbing`
+JOIN `fip_dosen` as `fip_dosen_pa` ON `fip_dosen_pa`.`nidn` = `skripsi`.`dosen_pa`
+JOIN `profil` ON `skripsi`.`nim_mahasiswa` = `profil`.`prf_nim_portal`
+JOIN `departemen` ON `profil`.`departemen_input` = `departemen`.`departeme_id`
+WHERE `skripsi_uuid` = :skripsi_uuid:', [...], false)
+ 2 APPPATH\Models\SkripsiModel.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\MasterJudul.php(30): App\Models\SkripsiModel->getDetailByUuidByAdmin('21bebf08-11fd-11ef-afd2-a85e4536f907')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->detail('21bebf08-11fd-11ef-afd2-a85e4536f907')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 10:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 10:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 11:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 14:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 14:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 14:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 14:05:53 --> CSRF token verified.
+INFO - 2024-05-16 14:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 14:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 14:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 14:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 14:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 14:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 14:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 14:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 14:20:27 --> Undefined property: App\Controllers\Dosen::$profilModel
+in APPPATH\Controllers\Dosen.php on line 32.
+ 1 APPPATH\Controllers\Dosen.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dosen::$profilModel', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Controllers\\Dosen.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dosen->detail('0002028203')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 14:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 14:20:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`peg_prodi`)
+WHERE `nidn` = '0002028203'' at line 3 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `fip_dos...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fip_dos...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fip_dos...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `fip_dos...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Models\DosenModel.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ciempatmonitoringenam\app\Controllers\Dosen.php(32): App\Models\DosenModel->getDetail('0002028203')
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\Dosen->detail('0002028203')
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-05-16 14:20:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`peg_prodi`)
+WHERE `nidn` = '0002028203'' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `fip_dosen`.*, `departemen`.`departemen_nama` as `nama_departemen`
+FROM `fip_dosen`
+JOIN `departemen` USING (`fip_dosen`.`peg_prodi`)
+WHERE `nidn` = :nidn:', [...], false)
+ 2 APPPATH\Models\DosenModel.php(183): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Dosen.php(32): App\Models\DosenModel->getDetail('0002028203')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dosen->detail('0002028203')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 14:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 14:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 14:28:11 --> syntax error, unexpected token "[", expecting variable or "{" or "$"
+in APPPATH\Views\dosen\v_detail_dosen.php on line 32.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dosen/v_detail_dosen', [], true)
+ 3 APPPATH\Controllers\Dosen.php(40): view('dosen/v_detail_dosen', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dosen->detail('0002028203')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 14:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 14:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 14:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 14:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 14:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 14:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 15:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 15:43:08 --> mysqli_sql_exception: Unknown column 'fip_dosen_pa' in 'where clause' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `skripsi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `skripsi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `skripsi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Models\SkripsiModel.php(381): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ciempatmonitoringenam\app\Controllers\Dosen.php(36): App\Models\SkripsiModel->getAllMahasiswaByDosenPa('0002028203')
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\Dosen->detail('0002028203')
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-05-16 15:43:08 --> Unknown column 'fip_dosen_pa' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi`.*, `fip_dosen_pembimbing`.`nidn` as `d_pembimbing_nidn`, `fip_dosen_pembimbing`.`peg_gel_dep` as `d_pembimbing_peg_gel_dep`, `fip_dosen_pembimbing`.`peg_nama` as `d_pembimbing_peg_nama`, `fip_dosen_pembimbing`.`peg_gel_bel` as `d_pembimbing_peg_gel_bel`, `fip_dosen_pa`.`nidn` as `d_pa_nidn`, `fip_dosen_pa`.`peg_gel_dep` as `d_pa_peg_gel_dep`, `fip_dosen_pa`.`peg_nama` as `d_pa_peg_nama`, `fip_dosen_pa`.`peg_gel_bel` as `d_pa_peg_gel_bel`, `profil`.`departemen_input`, `departemen`.`departemen_nama` as `nama_departemen`
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembimbing` ON `fip_dosen_pembimbing`.`nidn` = `skripsi`.`dosen_pembimbing`
+JOIN `fip_dosen` as `fip_dosen_pa` ON `fip_dosen_pa`.`nidn` = `skripsi`.`dosen_pa`
+JOIN `profil` ON `skripsi`.`nim_mahasiswa` = `profil`.`prf_nim_portal`
+JOIN `departemen` ON `profil`.`departemen_input` = `departemen`.`departemen_id`
+WHERE `fip_dosen_pa` = :fip_dosen_pa:', [...], false)
+ 2 APPPATH\Models\SkripsiModel.php(381): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Dosen.php(36): App\Models\SkripsiModel->getAllMahasiswaByDosenPa('0002028203')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dosen->detail('0002028203')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 15:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 15:44:03 --> mysqli_sql_exception: Unknown column 'seminar.smr_tanggal' in 'field list' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `skripsi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `skripsi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `skripsi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Models\SkripsiModel.php(418): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ciempatmonitoringenam\app\Controllers\Dosen.php(38): App\Models\SkripsiModel->getAllMahasiswaByDosenPengujiSatu('0002028203')
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\Dosen->detail('0002028203')
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-05-16 15:44:03 --> Unknown column 'seminar.smr_tanggal' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi`.*, `fip_dosen_pembimbing`.`nidn` as `d_pembimbing_nidn`, `fip_dosen_pembimbing`.`peg_gel_dep` as `d_pembimbing_peg_gel_dep`, `fip_dosen_pembimbing`.`peg_nama` as `d_pembimbing_peg_nama`, `fip_dosen_pembimbing`.`peg_gel_bel` as `d_pembimbing_peg_gel_bel`, `fip_dosen_pa`.`nidn` as `d_pa_nidn`, `fip_dosen_pa`.`peg_gel_dep` as `d_pa_peg_gel_dep`, `fip_dosen_pa`.`peg_nama` as `d_pa_peg_nama`, `fip_dosen_pa`.`peg_gel_bel` as `d_pa_peg_gel_bel`, `profil`.`departemen_input`, `departemen`.`departemen_nama` as `nama_departemen`, `seminar`.`smr_tanggal`
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembimbing` ON `fip_dosen_pembimbing`.`nidn` = `skripsi`.`dosen_pembimbing`
+JOIN `fip_dosen` as `fip_dosen_pa` ON `fip_dosen_pa`.`nidn` = `skripsi`.`dosen_pa`
+JOIN `profil` ON `skripsi`.`nim_mahasiswa` = `profil`.`prf_nim_portal`
+JOIN `departemen` ON `profil`.`departemen_input` = `departemen`.`departemen_id`
+WHERE `penguji_satu` = :penguji_satu:', [...], false)
+ 2 APPPATH\Models\SkripsiModel.php(418): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Dosen.php(38): App\Models\SkripsiModel->getAllMahasiswaByDosenPengujiSatu('0002028203')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dosen->detail('0002028203')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 15:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 15:44:31 --> mysqli_sql_exception: Unknown column 'seminar.smr_tanggal' in 'field list' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `skripsi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `skripsi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `skripsi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Models\SkripsiModel.php(436): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ciempatmonitoringenam\app\Controllers\Dosen.php(39): App\Models\SkripsiModel->getAllMahasiswaByDosenPengujiDua('0002028203')
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\Dosen->detail('0002028203')
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-05-16 15:44:31 --> Unknown column 'seminar.smr_tanggal' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi`.*, `fip_dosen_pembimbing`.`nidn` as `d_pembimbing_nidn`, `fip_dosen_pembimbing`.`peg_gel_dep` as `d_pembimbing_peg_gel_dep`, `fip_dosen_pembimbing`.`peg_nama` as `d_pembimbing_peg_nama`, `fip_dosen_pembimbing`.`peg_gel_bel` as `d_pembimbing_peg_gel_bel`, `fip_dosen_pa`.`nidn` as `d_pa_nidn`, `fip_dosen_pa`.`peg_gel_dep` as `d_pa_peg_gel_dep`, `fip_dosen_pa`.`peg_nama` as `d_pa_peg_nama`, `fip_dosen_pa`.`peg_gel_bel` as `d_pa_peg_gel_bel`, `profil`.`departemen_input`, `departemen`.`departemen_nama` as `nama_departemen`, `seminar`.`smr_tanggal`
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembimbing` ON `fip_dosen_pembimbing`.`nidn` = `skripsi`.`dosen_pembimbing`
+JOIN `fip_dosen` as `fip_dosen_pa` ON `fip_dosen_pa`.`nidn` = `skripsi`.`dosen_pa`
+JOIN `profil` ON `skripsi`.`nim_mahasiswa` = `profil`.`prf_nim_portal`
+JOIN `departemen` ON `profil`.`departemen_input` = `departemen`.`departemen_id`
+WHERE `penguji_dua` = :penguji_dua:', [...], false)
+ 2 APPPATH\Models\SkripsiModel.php(436): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Dosen.php(39): App\Models\SkripsiModel->getAllMahasiswaByDosenPengujiDua('0002028203')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dosen->detail('0002028203')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 15:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 15:44:33 --> mysqli_sql_exception: Unknown column 'seminar.smr_tanggal' in 'field list' in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `skripsi...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `skripsi...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `skripsi...')
+#3 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi...', Array, false)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Models\SkripsiModel.php(436): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ciempatmonitoringenam\app\Controllers\Dosen.php(39): App\Models\SkripsiModel->getAllMahasiswaByDosenPengujiDua('0002028203')
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\Dosen->detail('0002028203')
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#8 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-05-16 15:44:33 --> Unknown column 'seminar.smr_tanggal' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi`.*, `fip_dosen_pembimbing`.`nidn` as `d_pembimbing_nidn`, `fip_dosen_pembimbing`.`peg_gel_dep` as `d_pembimbing_peg_gel_dep`, `fip_dosen_pembimbing`.`peg_nama` as `d_pembimbing_peg_nama`, `fip_dosen_pembimbing`.`peg_gel_bel` as `d_pembimbing_peg_gel_bel`, `fip_dosen_pa`.`nidn` as `d_pa_nidn`, `fip_dosen_pa`.`peg_gel_dep` as `d_pa_peg_gel_dep`, `fip_dosen_pa`.`peg_nama` as `d_pa_peg_nama`, `fip_dosen_pa`.`peg_gel_bel` as `d_pa_peg_gel_bel`, `profil`.`departemen_input`, `departemen`.`departemen_nama` as `nama_departemen`, `seminar`.`smr_tanggal`
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembimbing` ON `fip_dosen_pembimbing`.`nidn` = `skripsi`.`dosen_pembimbing`
+JOIN `fip_dosen` as `fip_dosen_pa` ON `fip_dosen_pa`.`nidn` = `skripsi`.`dosen_pa`
+JOIN `profil` ON `skripsi`.`nim_mahasiswa` = `profil`.`prf_nim_portal`
+JOIN `departemen` ON `profil`.`departemen_input` = `departemen`.`departemen_id`
+WHERE `penguji_dua` = :penguji_dua:', [...], false)
+ 2 APPPATH\Models\SkripsiModel.php(436): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Dosen.php(39): App\Models\SkripsiModel->getAllMahasiswaByDosenPengujiDua('0002028203')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dosen->detail('0002028203')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-05-16 15:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 15:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 15:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 15:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,613 @@
+INFO - 2024-03-09 00:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-09 00:01:21 --> Invalid file: "ruangan/v_daftar_ruangan_terpakai.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ruangan/v_daftar_ruangan_terpakai.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ruangan/v_daftar_ruangan_terpakai', [], true)
+ 3 APPPATH\Controllers\Ruangan.php(100): view('ruangan/v_daftar_ruangan_terpakai', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-03-09 00:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-09 00:24:38 --> date_diff(): Argument #1 ($baseObject) must be of type DateTimeInterface, string given
+in APPPATH\Helpers\tanggal_helper.php on line 51.
+ 1 APPPATH\Helpers\tanggal_helper.php(51): date_diff('2024-03-09', '2024-01-30')
+ 2 APPPATH\Views\ruangan\v_ruangan_terpakai.php(41): perbedaan_hari('2024-01-30')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\ruangan\\v_ruangan_terpakai.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ruangan/v_ruangan_terpakai', [], true)
+ 6 APPPATH\Controllers\Ruangan.php(100): view('ruangan/v_ruangan_terpakai', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-03-09 00:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-09 00:25:36 --> date_diff(): Argument #1 ($baseObject) must be of type DateTimeInterface, string given
+in APPPATH\Helpers\tanggal_helper.php on line 51.
+ 1 APPPATH\Helpers\tanggal_helper.php(51): date_diff('2024-03-09', '2024-01-30')
+ 2 APPPATH\Views\ruangan\v_ruangan_terpakai.php(41): perbedaan_hari('2024-01-30')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\ruangan\\v_ruangan_terpakai.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ruangan/v_ruangan_terpakai', [], true)
+ 6 APPPATH\Controllers\Ruangan.php(100): view('ruangan/v_ruangan_terpakai', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-03-09 00:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-09 00:26:42 --> date_diff(): Argument #2 ($targetObject) must be of type DateTimeInterface, string given
+in APPPATH\Helpers\tanggal_helper.php on line 51.
+ 1 APPPATH\Helpers\tanggal_helper.php(51): date_diff(Object(DateTime), '2024-01-30')
+ 2 APPPATH\Views\ruangan\v_ruangan_terpakai.php(41): perbedaan_hari('2024-01-30')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\ruangan\\v_ruangan_terpakai.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ruangan/v_ruangan_terpakai', [], true)
+ 6 APPPATH\Controllers\Ruangan.php(100): view('ruangan/v_ruangan_terpakai', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-03-09 00:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:43:43 --> CSRF token verified.
+INFO - 2024-03-09 00:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:55:45 --> CSRF token verified.
+INFO - 2024-03-09 00:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:55:50 --> CSRF token verified.
+INFO - 2024-03-09 00:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:56:17 --> CSRF token verified.
+INFO - 2024-03-09 00:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:56:42 --> CSRF token verified.
+INFO - 2024-03-09 00:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:57:40 --> CSRF token verified.
+INFO - 2024-03-09 00:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:58:33 --> CSRF token verified.
+INFO - 2024-03-09 00:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:58:51 --> CSRF token verified.
+INFO - 2024-03-09 00:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:58:55 --> CSRF token verified.
+INFO - 2024-03-09 00:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:59:05 --> CSRF token verified.
+INFO - 2024-03-09 00:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:59:28 --> CSRF token verified.
+INFO - 2024-03-09 00:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 00:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:01:50 --> CSRF token verified.
+INFO - 2024-03-09 01:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-09 01:04:37 --> Class "App\Models\Date" not found
+in APPPATH\Models\RuanganModel.php on line 74.
+ 1 APPPATH\Controllers\Ruangan.php(95): App\Models\RuanganModel->semuaRuanganTerpakai()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-03-09 01:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-09 01:04:52 --> Failed to parse time string (Y-m-d) at position 1 (-): Unexpected character
+in APPPATH\Models\RuanganModel.php on line 74.
+ 1 APPPATH\Models\RuanganModel.php(74): DateTime->__construct('Y-m-d')
+ 2 APPPATH\Controllers\Ruangan.php(95): App\Models\RuanganModel->semuaRuanganTerpakai()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-03-09 01:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-09 01:13:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE smr_tanggal = $tanggal
+                UNION ALL 
+                SELECT' at line 7 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT smr_nim_...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT smr_nim_...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT smr_nim_...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\RuanganModel.php(73): CodeIgniter\Database\BaseConnection->query('SELECT smr_nim_...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\Ruangan.php(95): App\Models\RuanganModel->semuaRuanganTerpakai()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-03-09 01:13:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE smr_tanggal = $tanggal
+                UNION ALL 
+                SELECT' at line 7
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\RuanganModel.php(73): CodeIgniter\Database\BaseConnection->query('SELECT smr_nim_m, smr_hari, hari.hari_nama as nama_hari, smr_tanggal, smr_sesi, seminar_sesi.jam_alias as nama_sesi, smr_ruangan, seminar_ruangan.ruangan_alias as nama_ruangan, "Seminar" AS jenis_pemakaian
+                FROM seminar
+                INNER JOIN hari ON seminar.smr_hari = hari.hari_id
+                INNER JOIN seminar_sesi ON seminar.smr_sesi = seminar_sesi.seminar_s_id
+                INNER JOIN seminar_ruangan ON seminar.smr_ruangan = seminar_ruangan.seminar_r_id
+                WHERE smr_status = 5
+                WHERE smr_tanggal = $tanggal
+                UNION ALL 
+                SELECT us_nim_m, us_hari, hari.hari_nama as nama_hari, us_tanggal, us_sesi, seminar_sesi.jam_alias as nama_sesi, us_ruangan, seminar_ruangan.ruangan_alias as nama_ruangan, "Ujian Skripsi" AS jenis_pemakaian
+                FROM ujian_skripsi 
+                INNER JOIN hari ON ujian_skripsi.us_hari = hari.hari_id
+                INNER JOIN seminar_sesi ON ujian_skripsi.us_sesi = seminar_sesi.seminar_s_id
+                INNER JOIN seminar_ruangan ON ujian_skripsi.us_ruangan = seminar_ruangan.seminar_r_id
+                WHERE us_status = 5
+                WHERE us_tanggal = $tanggal')
+ 2 APPPATH\Controllers\Ruangan.php(95): App\Models\RuanganModel->semuaRuanganTerpakai()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-03-09 01:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-09 01:13:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE smr_tanggal = $tanggal
+                UNION ALL 
+                SELECT' at line 7 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT smr_nim_...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT smr_nim_...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT smr_nim_...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\RuanganModel.php(73): CodeIgniter\Database\BaseConnection->query('SELECT smr_nim_...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\Ruangan.php(95): App\Models\RuanganModel->semuaRuanganTerpakai()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-03-09 01:13:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE smr_tanggal = $tanggal
+                UNION ALL 
+                SELECT' at line 7
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\RuanganModel.php(73): CodeIgniter\Database\BaseConnection->query('SELECT smr_nim_m, smr_hari, hari.hari_nama as nama_hari, smr_tanggal, smr_sesi, seminar_sesi.jam_alias as nama_sesi, smr_ruangan, seminar_ruangan.ruangan_alias as nama_ruangan, "Seminar" AS jenis_pemakaian
+                FROM seminar
+                INNER JOIN hari ON seminar.smr_hari = hari.hari_id
+                INNER JOIN seminar_sesi ON seminar.smr_sesi = seminar_sesi.seminar_s_id
+                INNER JOIN seminar_ruangan ON seminar.smr_ruangan = seminar_ruangan.seminar_r_id
+                WHERE smr_status = 5
+                WHERE smr_tanggal = $tanggal
+                UNION ALL 
+                SELECT us_nim_m, us_hari, hari.hari_nama as nama_hari, us_tanggal, us_sesi, seminar_sesi.jam_alias as nama_sesi, us_ruangan, seminar_ruangan.ruangan_alias as nama_ruangan, "Ujian Skripsi" AS jenis_pemakaian
+                FROM ujian_skripsi 
+                INNER JOIN hari ON ujian_skripsi.us_hari = hari.hari_id
+                INNER JOIN seminar_sesi ON ujian_skripsi.us_sesi = seminar_sesi.seminar_s_id
+                INNER JOIN seminar_ruangan ON ujian_skripsi.us_ruangan = seminar_ruangan.seminar_r_id
+                WHERE us_status = 5
+                WHERE us_tanggal = $tanggal')
+ 2 APPPATH\Controllers\Ruangan.php(95): App\Models\RuanganModel->semuaRuanganTerpakai()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-03-09 01:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-09 01:17:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE smr_tanggal = ?
+                UNION ALL 
+                SELECT us_nim' at line 7 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT smr_nim_...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT smr_nim_...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT smr_nim_...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\RuanganModel.php(87): CodeIgniter\Database\BaseConnection->query('SELECT smr_nim_...', Array)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\Ruangan.php(95): App\Models\RuanganModel->semuaRuanganTerpakai()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-03-09 01:17:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE smr_tanggal = ?
+                UNION ALL 
+                SELECT us_nim' at line 7
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\RuanganModel.php(87): CodeIgniter\Database\BaseConnection->query('SELECT smr_nim_m, smr_hari, hari.hari_nama as nama_hari, smr_tanggal, smr_sesi, seminar_sesi.jam_alias as nama_sesi, smr_ruangan, seminar_ruangan.ruangan_alias as nama_ruangan, "Seminar" AS jenis_pemakaian
+                FROM seminar
+                INNER JOIN hari ON seminar.smr_hari = hari.hari_id
+                INNER JOIN seminar_sesi ON seminar.smr_sesi = seminar_sesi.seminar_s_id
+                INNER JOIN seminar_ruangan ON seminar.smr_ruangan = seminar_ruangan.seminar_r_id
+                WHERE smr_status = 5
+                WHERE smr_tanggal = ?
+                UNION ALL 
+                SELECT us_nim_m, us_hari, hari.hari_nama as nama_hari, us_tanggal, us_sesi, seminar_sesi.jam_alias as nama_sesi, us_ruangan, seminar_ruangan.ruangan_alias as nama_ruangan, "Ujian Skripsi" AS jenis_pemakaian
+                FROM ujian_skripsi 
+                INNER JOIN hari ON ujian_skripsi.us_hari = hari.hari_id
+                INNER JOIN seminar_sesi ON ujian_skripsi.us_sesi = seminar_sesi.seminar_s_id
+                INNER JOIN seminar_ruangan ON ujian_skripsi.us_ruangan = seminar_ruangan.seminar_r_id
+                WHERE us_status = 5
+                WHERE us_tanggal = ?', [...])
+ 2 APPPATH\Controllers\Ruangan.php(95): App\Models\RuanganModel->semuaRuanganTerpakai()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-03-09 01:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-09 01:19:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?
+                UNION ALL 
+                SELECT us_nim_m, us_hari, hari.ha' at line 7 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT smr_nim_...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT smr_nim_...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT smr_nim_...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\RuanganModel.php(87): CodeIgniter\Database\BaseConnection->query('SELECT smr_nim_...', Array)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\Ruangan.php(95): App\Models\RuanganModel->semuaRuanganTerpakai()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-03-09 01:19:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?
+                UNION ALL 
+                SELECT us_nim_m, us_hari, hari.ha' at line 7
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\RuanganModel.php(87): CodeIgniter\Database\BaseConnection->query('SELECT smr_nim_m, smr_hari, hari.hari_nama as nama_hari, smr_tanggal, smr_sesi, seminar_sesi.jam_alias as nama_sesi, smr_ruangan, seminar_ruangan.ruangan_alias as nama_ruangan, "Seminar" AS jenis_pemakaian
+                FROM seminar
+                INNER JOIN hari ON seminar.smr_hari = hari.hari_id
+                INNER JOIN seminar_sesi ON seminar.smr_sesi = seminar_sesi.seminar_s_id
+                INNER JOIN seminar_ruangan ON seminar.smr_ruangan = seminar_ruangan.seminar_r_id
+                WHERE smr_status = 5
+                AND smr_tanggal = ?
+                UNION ALL 
+                SELECT us_nim_m, us_hari, hari.hari_nama as nama_hari, us_tanggal, us_sesi, seminar_sesi.jam_alias as nama_sesi, us_ruangan, seminar_ruangan.ruangan_alias as nama_ruangan, "Ujian Skripsi" AS jenis_pemakaian
+                FROM ujian_skripsi 
+                INNER JOIN hari ON ujian_skripsi.us_hari = hari.hari_id
+                INNER JOIN seminar_sesi ON ujian_skripsi.us_sesi = seminar_sesi.seminar_s_id
+                INNER JOIN seminar_ruangan ON ujian_skripsi.us_ruangan = seminar_ruangan.seminar_r_id
+                WHERE us_status = 5
+                AND us_tanggal = ?', [...])
+ 2 APPPATH\Controllers\Ruangan.php(95): App\Models\RuanganModel->semuaRuanganTerpakai()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-03-09 01:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-09 01:19:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?
+                UNION ALL 
+                SELECT us_nim_m, us_hari, hari.ha' at line 7 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT smr_nim_...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT smr_nim_...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT smr_nim_...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\RuanganModel.php(87): CodeIgniter\Database\BaseConnection->query('SELECT smr_nim_...', Array)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\Ruangan.php(95): App\Models\RuanganModel->semuaRuanganTerpakai()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-03-09 01:19:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?
+                UNION ALL 
+                SELECT us_nim_m, us_hari, hari.ha' at line 7
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\RuanganModel.php(87): CodeIgniter\Database\BaseConnection->query('SELECT smr_nim_m, smr_hari, hari.hari_nama as nama_hari, smr_tanggal, smr_sesi, seminar_sesi.jam_alias as nama_sesi, smr_ruangan, seminar_ruangan.ruangan_alias as nama_ruangan, "Seminar" AS jenis_pemakaian
+                FROM seminar
+                INNER JOIN hari ON seminar.smr_hari = hari.hari_id
+                INNER JOIN seminar_sesi ON seminar.smr_sesi = seminar_sesi.seminar_s_id
+                INNER JOIN seminar_ruangan ON seminar.smr_ruangan = seminar_ruangan.seminar_r_id
+                WHERE smr_status = 5
+                    AND smr_tanggal = ?
+                UNION ALL 
+                SELECT us_nim_m, us_hari, hari.hari_nama as nama_hari, us_tanggal, us_sesi, seminar_sesi.jam_alias as nama_sesi, us_ruangan, seminar_ruangan.ruangan_alias as nama_ruangan, "Ujian Skripsi" AS jenis_pemakaian
+                FROM ujian_skripsi 
+                INNER JOIN hari ON ujian_skripsi.us_hari = hari.hari_id
+                INNER JOIN seminar_sesi ON ujian_skripsi.us_sesi = seminar_sesi.seminar_s_id
+                INNER JOIN seminar_ruangan ON ujian_skripsi.us_ruangan = seminar_ruangan.seminar_r_id
+                WHERE us_status = 5
+                    AND us_tanggal = ?', [...])
+ 2 APPPATH\Controllers\Ruangan.php(95): App\Models\RuanganModel->semuaRuanganTerpakai()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-03-09 01:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-09 01:19:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?
+                UNION ALL 
+                SELECT us_nim_m, us_hari, hari.ha' at line 7 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT smr_nim_...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT smr_nim_...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT smr_nim_...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\RuanganModel.php(87): CodeIgniter\Database\BaseConnection->query('SELECT smr_nim_...', Array)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\Ruangan.php(95): App\Models\RuanganModel->semuaRuanganTerpakai()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-03-09 01:19:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?
+                UNION ALL 
+                SELECT us_nim_m, us_hari, hari.ha' at line 7
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\RuanganModel.php(87): CodeIgniter\Database\BaseConnection->query('SELECT smr_nim_m, smr_hari, hari.hari_nama as nama_hari, smr_tanggal, smr_sesi, seminar_sesi.jam_alias as nama_sesi, smr_ruangan, seminar_ruangan.ruangan_alias as nama_ruangan, "Seminar" AS jenis_pemakaian
+                FROM seminar
+                INNER JOIN hari ON seminar.smr_hari = hari.hari_id
+                INNER JOIN seminar_sesi ON seminar.smr_sesi = seminar_sesi.seminar_s_id
+                INNER JOIN seminar_ruangan ON seminar.smr_ruangan = seminar_ruangan.seminar_r_id
+                WHERE smr_status = 5
+                    AND smr_tanggal = ?
+                UNION ALL 
+                SELECT us_nim_m, us_hari, hari.hari_nama as nama_hari, us_tanggal, us_sesi, seminar_sesi.jam_alias as nama_sesi, us_ruangan, seminar_ruangan.ruangan_alias as nama_ruangan, "Ujian Skripsi" AS jenis_pemakaian
+                FROM ujian_skripsi 
+                INNER JOIN hari ON ujian_skripsi.us_hari = hari.hari_id
+                INNER JOIN seminar_sesi ON ujian_skripsi.us_sesi = seminar_sesi.seminar_s_id
+                INNER JOIN seminar_ruangan ON ujian_skripsi.us_ruangan = seminar_ruangan.seminar_r_id
+                WHERE us_status = 5
+                    AND us_tanggal = ?', [...])
+ 2 APPPATH\Controllers\Ruangan.php(95): App\Models\RuanganModel->semuaRuanganTerpakai()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-03-09 01:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-09 01:20:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?
+                UNION ALL 
+                SELECT us_nim_m, us_hari, hari.ha' at line 8 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT smr_nim_...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT smr_nim_...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT smr_nim_...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\RuanganModel.php(89): CodeIgniter\Database\BaseConnection->query('SELECT smr_nim_...', Array)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\Ruangan.php(95): App\Models\RuanganModel->semuaRuanganTerpakai()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-03-09 01:20:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?
+                UNION ALL 
+                SELECT us_nim_m, us_hari, hari.ha' at line 8
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\RuanganModel.php(89): CodeIgniter\Database\BaseConnection->query('SELECT smr_nim_m, smr_hari, hari.hari_nama as nama_hari, smr_tanggal, smr_sesi, seminar_sesi.jam_alias as nama_sesi, smr_ruangan, seminar_ruangan.ruangan_alias as nama_ruangan, "Seminar" AS jenis_pemakaian
+                FROM seminar
+                INNER JOIN hari ON seminar.smr_hari = hari.hari_id
+                INNER JOIN seminar_sesi ON seminar.smr_sesi = seminar_sesi.seminar_s_id
+                INNER JOIN seminar_ruangan ON seminar.smr_ruangan = seminar_ruangan.seminar_r_id
+                WHERE 
+                    smr_status = 5
+                    and smr_tanggal = ?
+                UNION ALL 
+                SELECT us_nim_m, us_hari, hari.hari_nama as nama_hari, us_tanggal, us_sesi, seminar_sesi.jam_alias as nama_sesi, us_ruangan, seminar_ruangan.ruangan_alias as nama_ruangan, "Ujian Skripsi" AS jenis_pemakaian
+                FROM ujian_skripsi 
+                INNER JOIN hari ON ujian_skripsi.us_hari = hari.hari_id
+                INNER JOIN seminar_sesi ON ujian_skripsi.us_sesi = seminar_sesi.seminar_s_id
+                INNER JOIN seminar_ruangan ON ujian_skripsi.us_ruangan = seminar_ruangan.seminar_r_id
+                WHERE 
+                    us_status = 5
+                    and us_tanggal = ?', [...])
+ 2 APPPATH\Controllers\Ruangan.php(95): App\Models\RuanganModel->semuaRuanganTerpakai()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-03-09 01:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-09 01:20:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?
+                UNION ALL 
+                SELECT us_nim_m, us_hari, hari.ha' at line 8 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT smr_nim_...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT smr_nim_...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT smr_nim_...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\RuanganModel.php(89): CodeIgniter\Database\BaseConnection->query('SELECT smr_nim_...', Array)
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\Ruangan.php(95): App\Models\RuanganModel->semuaRuanganTerpakai()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-03-09 01:20:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?
+                UNION ALL 
+                SELECT us_nim_m, us_hari, hari.ha' at line 8
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\RuanganModel.php(89): CodeIgniter\Database\BaseConnection->query('SELECT smr_nim_m, smr_hari, hari.hari_nama as nama_hari, smr_tanggal, smr_sesi, seminar_sesi.jam_alias as nama_sesi, smr_ruangan, seminar_ruangan.ruangan_alias as nama_ruangan, "Seminar" AS jenis_pemakaian
+                FROM seminar
+                INNER JOIN hari ON seminar.smr_hari = hari.hari_id
+                INNER JOIN seminar_sesi ON seminar.smr_sesi = seminar_sesi.seminar_s_id
+                INNER JOIN seminar_ruangan ON seminar.smr_ruangan = seminar_ruangan.seminar_r_id
+                WHERE 
+                    smr_status = 5
+                    and smr_tanggal = ?
+                UNION ALL 
+                SELECT us_nim_m, us_hari, hari.hari_nama as nama_hari, us_tanggal, us_sesi, seminar_sesi.jam_alias as nama_sesi, us_ruangan, seminar_ruangan.ruangan_alias as nama_ruangan, "Ujian Skripsi" AS jenis_pemakaian
+                FROM ujian_skripsi 
+                INNER JOIN hari ON ujian_skripsi.us_hari = hari.hari_id
+                INNER JOIN seminar_sesi ON ujian_skripsi.us_sesi = seminar_sesi.seminar_s_id
+                INNER JOIN seminar_ruangan ON ujian_skripsi.us_ruangan = seminar_ruangan.seminar_r_id
+                WHERE 
+                    us_status = 5
+                    and us_tanggal = ?', [...])
+ 2 APPPATH\Controllers\Ruangan.php(95): App\Models\RuanganModel->semuaRuanganTerpakai()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-03-09 01:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-09 01:22:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?
+                UNION ALL 
+                SELECT us_nim_m, us_hari, hari.ha' at line 8 in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT smr_nim_...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT smr_nim_...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT smr_nim_...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\RuanganModel.php(73): CodeIgniter\Database\BaseConnection->query('SELECT smr_nim_...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\Ruangan.php(95): App\Models\RuanganModel->semuaRuanganTerpakai()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-03-09 01:22:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?
+                UNION ALL 
+                SELECT us_nim_m, us_hari, hari.ha' at line 8
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\RuanganModel.php(73): CodeIgniter\Database\BaseConnection->query('SELECT smr_nim_m, smr_hari, hari.hari_nama as nama_hari, smr_tanggal, smr_sesi, seminar_sesi.jam_alias as nama_sesi, smr_ruangan, seminar_ruangan.ruangan_alias as nama_ruangan, \'Seminar\' AS jenis_pemakaian
+                FROM seminar
+                INNER JOIN hari ON seminar.smr_hari = hari.hari_id
+                INNER JOIN seminar_sesi ON seminar.smr_sesi = seminar_sesi.seminar_s_id
+                INNER JOIN seminar_ruangan ON seminar.smr_ruangan = seminar_ruangan.seminar_r_id
+                WHERE 
+                    smr_status = 5
+                    and smr_tanggal = ?
+                UNION ALL 
+                SELECT us_nim_m, us_hari, hari.hari_nama as nama_hari, us_tanggal, us_sesi, seminar_sesi.jam_alias as nama_sesi, us_ruangan, seminar_ruangan.ruangan_alias as nama_ruangan, \'Ujian Skripsi\' AS jenis_pemakaian
+                FROM ujian_skripsi 
+                INNER JOIN hari ON ujian_skripsi.us_hari = hari.hari_id
+                INNER JOIN seminar_sesi ON ujian_skripsi.us_sesi = seminar_sesi.seminar_s_id
+                INNER JOIN seminar_ruangan ON ujian_skripsi.us_ruangan = seminar_ruangan.seminar_r_id
+                WHERE 
+                    us_status = 5
+                    and us_tanggal = ?')
+ 2 APPPATH\Controllers\Ruangan.php(95): App\Models\RuanganModel->semuaRuanganTerpakai()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ruangan->daftar_ruangan_terpakai()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-03-09 01:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:24:48 --> CSRF token verified.
+INFO - 2024-03-09 01:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:25:07 --> CSRF token verified.
+INFO - 2024-03-09 01:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:25:12 --> CSRF token verified.
+INFO - 2024-03-09 01:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:25:20 --> CSRF token verified.
+INFO - 2024-03-09 01:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:26:18 --> CSRF token verified.
+INFO - 2024-03-09 01:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:26:25 --> CSRF token verified.
+INFO - 2024-03-09 01:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 01:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 02:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 02:01:53 --> CSRF token verified.
+INFO - 2024-03-09 02:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 02:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 02:02:05 --> CSRF token verified.
+INFO - 2024-03-09 02:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 02:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 02:02:07 --> CSRF token verified.
+INFO - 2024-03-09 02:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 02:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

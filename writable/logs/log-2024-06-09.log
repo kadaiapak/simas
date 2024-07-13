@@ -1,0 +1,92 @@
+INFO - 2024-06-09 22:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:55:46 --> CSRF token verified.
+INFO - 2024-06-09 22:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:55:59 --> CSRF token verified.
+INFO - 2024-06-09 22:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:56:10 --> CSRF token verified.
+INFO - 2024-06-09 22:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:56:20 --> CSRF token verified.
+INFO - 2024-06-09 22:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:56:30 --> CSRF token verified.
+INFO - 2024-06-09 22:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-09 22:56:56 --> Undefined variable $departemen_by_id
+in APPPATH\Views\prodi\v_edit_prodi.php on line 14.
+ 1 APPPATH\Views\prodi\v_edit_prodi.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departemen_by_id', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\prodi\\v_edit_prodi.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\prodi\\v_edit_prodi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('prodi/v_edit_prodi', [], true)
+ 5 APPPATH\Controllers\Prodi.php(82): view('prodi/v_edit_prodi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Prodi->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prodi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-06-09 22:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-09 22:57:01 --> Undefined variable $departemen_by_id
+in APPPATH\Views\prodi\v_edit_prodi.php on line 14.
+ 1 APPPATH\Views\prodi\v_edit_prodi.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departemen_by_id', 'C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\prodi\\v_edit_prodi.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ciempatmonitoringenam\\app\\Views\\prodi\\v_edit_prodi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('prodi/v_edit_prodi', [], true)
+ 5 APPPATH\Controllers\Prodi.php(82): view('prodi/v_edit_prodi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Prodi->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prodi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-06-09 22:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-09 22:58:03 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.skripsi.nama_mahasiswa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ciempatmonitoringenam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT nim_maha...', 0)
+#1 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nim_maha...')
+#2 C:\laragon\www\ciempatmonitoringenam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nim_maha...')
+#3 C:\laragon\www\ciempatmonitoringenam\app\Models\SkripsiModel.php(93): CodeIgniter\Database\BaseConnection->query('SELECT nim_maha...')
+#4 C:\laragon\www\ciempatmonitoringenam\app\Controllers\MasterJudul.php(47): App\Models\SkripsiModel->getAllJudulDouble()
+#5 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+#6 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+#7 C:\laragon\www\ciempatmonitoringenam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ciempatmonitoringenam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ciempatmonitoringenam\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-06-09 22:58:03 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'monitoring_mahasiswa.skripsi.nama_mahasiswa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\SkripsiModel.php(93): CodeIgniter\Database\BaseConnection->query('SELECT nim_mahasiswa, nama_mahasiswa, departemen.departemen_nama as nama_departemen, COUNT(*) AS total_pengajuan
+            FROM 
+                skripsi
+            INNER JOIN profil ON skripsi.nim_mahasiswa = profil.prf_nim_portal
+            INNER JOIN departemen ON profil.departemen_input = departemen.departemen_id
+            GROUP BY 
+                nim_mahasiswa
+            HAVING
+                COUNT(*) > 1')
+ 2 APPPATH\Controllers\MasterJudul.php(47): App\Models\SkripsiModel->getAllJudulDouble()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterJudul->pengajuan_bermasalah()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterJudul))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ciempatmonitoringenam\\public\\index.php')
+INFO - 2024-06-09 22:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-09 22:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
